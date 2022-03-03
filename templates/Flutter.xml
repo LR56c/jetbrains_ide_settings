@@ -1,11 +1,9 @@
 <templateSet group="Flutter">
   <template name="row" value="Row(&#10;  children: [$goto$],&#10;)," description="Create Row Widget" toReformat="true" toShortenFQNames="true">
     <variable name="goto" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="column" value="Column(&#10;  children: [&#10;    $goto$&#10;  ],&#10;)," description="Create Column Widget" toReformat="true" toShortenFQNames="true">
     <variable name="goto" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="text" value="Text('$text$')," description="Create Text Widget" toReformat="true" toShortenFQNames="true">
     <variable name="text" expression="&quot;text&quot;" defaultValue="" alwaysStopAt="true" />
@@ -20,19 +18,15 @@
   </template>
   <template name="fcent" value="Center(&#10;  child: $child$" description="New Center widget" toReformat="true" toShortenFQNames="true">
     <variable name="child" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="fcol" value="Column(&#10;  children: [&#10;    $children$&#10;  ]," description="New Column widget" toReformat="true" toShortenFQNames="true">
     <variable name="children" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="fexp" value="Expanded(&#10;  child: $child$&#10;)" description="New Expanded widget" toReformat="true" toShortenFQNames="true">
     <variable name="child" expression="&quot;null&quot;" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="frow" value="Row(&#10;  children: [&#10;    $children$&#10;  ],&#10;)" description="New Row widget" toReformat="true" toShortenFQNames="true">
     <variable name="children" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="ficond" value="Icon(Icons.$iconName$)$END$" description="New Icon widget default" toReformat="true" toShortenFQNames="true">
     <variable name="iconName" expression="&quot;clear&quot;" defaultValue="" alwaysStopAt="true" />
@@ -70,15 +64,12 @@
   </template>
   <template name="container" value="Container(&#10;  child: $Widget$,&#10;)," description="Create Container Widget" toReformat="true" toShortenFQNames="true">
     <variable name="Widget" expression="&quot;Widget&quot;" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="fcont" value="Container(&#10;  child: $child$,&#10;)" description="New Container widget" toReformat="true" toShortenFQNames="true">
     <variable name="child" expression="&quot;child&quot;" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="ficon" value="Icon($iconName$)" description="New Icon widget" toReformat="true" toShortenFQNames="true">
     <variable name="iconName" expression="&quot;clear&quot;" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="rectangulo" value="return Container(&#10;  width: $size$,&#10;  height: $size$,&#10;  decoration: BoxDecoration(&#10;    color: $color$&#10;  ),&#10;);" description="Container plus" toReformat="false" toShortenFQNames="true">
     <variable name="size" expression="" defaultValue="&quot;70&quot;" alwaysStopAt="true" />
@@ -111,6 +102,5 @@
     <variable name="title" expression="&quot;title&quot;" defaultValue="" alwaysStopAt="true" />
     <variable name="content" expression="&quot;dialogBody&quot;" defaultValue="" alwaysStopAt="true" />
     <variable name="buttonText" expression="&quot;buttonText&quot;" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
 </templateSet>
