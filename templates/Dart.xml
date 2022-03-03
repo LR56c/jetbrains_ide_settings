@@ -1,0 +1,46 @@
+<templateSet group="Dart">
+  <template name="forl" value="for(var $i$ = 0; $i$ &lt; $collection$; $i$++){&#10;    &#10;}" description="for loop" toReformat="false" toShortenFQNames="true">
+    <variable name="i" expression="" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
+    <variable name="collection" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="forr" value="for(int $i$ = $collection$; $i$ &gt; 0; $i$--){&#10;    &#10;}" description="for loop reverse" toReformat="false" toShortenFQNames="true">
+    <variable name="i" expression="" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
+    <variable name="collection" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="forin" value="for($item$ in $collection$){&#10;&#10;}" description="for in" toReformat="false" toShortenFQNames="true">
+    <variable name="item" expression="" defaultValue="&quot;var item&quot;" alwaysStopAt="true" />
+    <variable name="collection" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="&gt;&gt;" value="($goto1$)=&gt;$END$" description="()=&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="goto1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="({" value="($goto1$){$goto2$}$END$" description="(){}" toReformat="false" toShortenFQNames="true">
+    <variable name="goto1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="goto2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="tryCatch" value="try{&#10;&#10;}&#10;catch(e){&#10;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="tryCatchFinally" value="try{&#10;&#10;}&#10;catch(e){&#10;&#10;}&#10;finally{&#10;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+</templateSet>
