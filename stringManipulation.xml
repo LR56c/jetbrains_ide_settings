@@ -1,26 +1,9 @@
 <application>
   <component name="StringManipulationState">
-    <option name="grepHistory">
-      <list>
-        <GrepSettings>
-          <option name="caseSensitive" value="true" />
-          <option name="pattern" value="'text'" />
-        </GrepSettings>
-      </list>
-    </option>
     <option name="lastAction">
       <UniversalActionModel>
-        <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.switching.ToPascalCaseOrCamelCaseAction" />
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.ToCamelCaseAction" />
       </UniversalActionModel>
-    </option>
-    <option name="sortSettingsMap">
-      <map>
-        <entry key="SortAction">
-          <value>
-            <SortSettings />
-          </value>
-        </entry>
-      </map>
     </option>
   </component>
 </application>
