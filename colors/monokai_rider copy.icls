@@ -3,7 +3,7 @@
     <property name="created">2022-01-25T21:39:48</property>
     <property name="ide">AndroidStudio</property>
     <property name="ideVersion">2020.3.1.26</property>
-    <property name="modified">2022-02-25T19:07:36</property>
+    <property name="modified">2022-03-04T12:01:28</property>
     <property name="originalScheme">monokai_rider copy</property>
   </metaInfo>
   <attributes>
@@ -119,7 +119,7 @@
         <option name="FOREGROUND" value="ffd866" />
       </value>
     </option>
-    <option name="Class" baseAttributes="CLASS_NAME_ATTRIBUTES" />
+    <option name="Class" baseAttributes="" />
     <option name="DART_ANNOTATION">
       <value>
         <option name="FOREGROUND" value="ffd866" />
@@ -801,6 +801,11 @@
         <option name="FOREGROUND" value="ffd866" />
       </value>
     </option>
+    <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="KOTLIN_LABEL">
       <value />
     </option>
@@ -1211,7 +1216,9 @@
       </value>
     </option>
     <option name="PY.OPERATION_SIGN">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="ffd866" />
+      </value>
     </option>
     <option name="PY.PARAMETER">
       <value>
@@ -1243,7 +1250,7 @@
     </option>
     <option name="PY.STRING.B">
       <value>
-        <option name="FOREGROUND" value="dda0dd" />
+        <option name="FOREGROUND" value="d69d85" />
       </value>
     </option>
     <option name="PY.STRING.U">
