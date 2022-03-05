@@ -19,4 +19,7 @@
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
+  <template name="tl" value="&lt;$s$&gt;()$END$" description="&lt;typedList&gt;[]" toReformat="false" toShortenFQNames="true">
+    <variable name="s" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
 </templateSet>
