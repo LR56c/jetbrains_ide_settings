@@ -165,19 +165,19 @@
       <option name="FLUTTER" value="true" />
     </context>
   </template>
-  <template name="flpage" value="import 'package:flutter/material.dart';&#10;class $name$Page extends StatelessWidget {&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Scaffold(&#10;      body: Center(&#10;        child: Text('$name$Page'),&#10;      ),&#10;    );&#10;  }&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="flpage" value="import 'package:flutter/material.dart';&#10;class $name$Page extends StatelessWidget {&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Scaffold(&#10;      body: Center(&#10;        child: Text('$name$Page'),&#10;      ),&#10;    );&#10;  }&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="FLUTTER" value="true" />
     </context>
   </template>
-  <template name="flscreen" value="import 'package:flutter/material.dart';&#10;class $name$Screen extends StatelessWidget {&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Scaffold(&#10;      body: Center(&#10;        child: Text('$name$Screen'),&#10;      ),&#10;    );&#10;  }&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="flscreen" value="import 'package:flutter/material.dart';&#10;class $name$Screen extends StatelessWidget {&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Scaffold(&#10;      body: Center(&#10;        child: Text('$name$Screen'),&#10;      ),&#10;    );&#10;  }&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="FLUTTER" value="true" />
     </context>
   </template>
-  <template name="&gt;view" value="import 'package:flutter/material.dart';&#10;class $name$View extends StatelessWidget {&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Scaffold(&#10;      body: Center(&#10;        child: Text('$name$View'),&#10;      ),&#10;    );&#10;  }&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="&gt;view" value="import 'package:flutter/material.dart';&#10;class $name$View extends StatelessWidget {&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Scaffold(&#10;      body: Center(&#10;        child: Text('$name$View'),&#10;      ),&#10;    );&#10;  }&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="FLUTTER" value="true" />
