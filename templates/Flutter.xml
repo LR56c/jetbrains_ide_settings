@@ -183,7 +183,7 @@
       <option name="FLUTTER" value="true" />
     </context>
   </template>
-  <template name="&gt;page" value="import 'package:flutter/material.dart';&#10;&#10;class $name$Page extends StatelessWidget {&#10;  const $name$Page({Key key}) : super(key: key);&#10;&#10;  /// $name$Page [routeName]&#10;  static const routeName = '$name$Page';&#10;&#10;  ///Router for $name$Page&#10;  static Route route() {&#10;    return MaterialPageRoute&lt;void&gt;(builder: (_) =&gt; const $name$Page());&#10;  }&#10;&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Scaffold(&#10;      appBar: AppBar(&#10;        title: const Text('$name$'),&#10;      ),&#10;    );&#10;  }&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="&gt;page" value="import 'package:flutter/material.dart';&#10;&#10;class $name$Page extends StatelessWidget {&#10;  const $name$Page({Key key}) : super(key: key);&#10;&#10;  /// $name$Page [routeName]&#10;  static const routeName = '$name$Page';&#10;&#10;  ///Router for $name$Page&#10;  static Route route() {&#10;    return MaterialPageRoute&lt;void&gt;(builder: (_) =&gt; const $name$Page());&#10;  }&#10;&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Scaffold(&#10;      appBar: AppBar(&#10;        title: const Text('$name$'),&#10;      ),&#10;    );&#10;  }&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="FLUTTER" value="true" />
