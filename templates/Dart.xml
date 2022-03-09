@@ -1,0 +1,25 @@
+<templateSet group="Dart">
+  <template name="&gt;" value="($S1$) =&gt; $END$" description="()=&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="S1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="(" value="($S1$){$S2$}$END$" description="(){}" toReformat="false" toShortenFQNames="true">
+    <variable name="S1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="S2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="ifr" value="if ($condition$) return$END$;" description="Dart if return statement" toReformat="false" toShortenFQNames="true">
+    <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+      <option name="DART_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="tl" value="&lt;$s$&gt;()$END$" description="&lt;typedList&gt;[]" toReformat="false" toShortenFQNames="true">
+    <variable name="s" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+</templateSet>
