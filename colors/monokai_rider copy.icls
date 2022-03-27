@@ -3,7 +3,7 @@
     <property name="created">2022-01-25T21:39:48</property>
     <property name="ide">AndroidStudio</property>
     <property name="ideVersion">2020.3.1.26</property>
-    <property name="modified">2022-03-26T10:20:55</property>
+    <property name="modified">2022-03-27T19:00:36</property>
     <property name="originalScheme">monokai_rider copy</property>
   </metaInfo>
   <attributes>
@@ -496,6 +496,19 @@
     <option name="GO_STRUCT_LOCAL_MEMBER">
       <value>
         <option name="FOREGROUND" value="a9dc76" />
+      </value>
+    </option>
+    <option name="GO_TEMPLATE_BACKGROUND">
+      <value />
+    </option>
+    <option name="GO_TEMPLATE_DELIMITER">
+      <value>
+        <option name="FOREGROUND" value="ac56d9" />
+      </value>
+    </option>
+    <option name="GO_TEMPLATE_OPERATOR">
+      <value>
+        <option name="FOREGROUND" value="e6db74" />
       </value>
     </option>
     <option name="GO_TYPE_REFERENCE">
