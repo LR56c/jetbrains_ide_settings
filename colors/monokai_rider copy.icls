@@ -3,7 +3,7 @@
     <property name="created">2022-01-25T21:39:48</property>
     <property name="ide">AndroidStudio</property>
     <property name="ideVersion">2020.3.1.26</property>
-    <property name="modified">2022-03-27T19:05:14</property>
+    <property name="modified">2022-03-27T19:33:13</property>
     <property name="originalScheme">monokai_rider copy</property>
   </metaInfo>
   <attributes>
@@ -899,12 +899,12 @@
     </option>
     <option name="NG.BANANA_BINDING_ATTR_NAME">
       <value>
-        <option name="FOREGROUND" value="ac56d9" />
+        <option name="FOREGROUND" value="fd3895" />
       </value>
     </option>
     <option name="NG.EVENT_BINDING_ATTR_NAME">
       <value>
-        <option name="FOREGROUND" value="fc9867" />
+        <option name="FOREGROUND" value="ac56d9" />
       </value>
     </option>
     <option name="NG.EXPANSION_FORM">
@@ -920,7 +920,7 @@
     </option>
     <option name="NG.PROPERTY_BINDING_ATTR_NAME">
       <value>
-        <option name="FOREGROUND" value="fd3895" />
+        <option name="FOREGROUND" value="fc9867" />
       </value>
     </option>
     <option name="NG.REFERENCE_ATTR_NAME">
