@@ -86,6 +86,9 @@
     <keyboard-shortcut first-keystroke="alt s" />
   </action>
   <action id="EditorToggleColumnMode" />
+  <action id="EmojiAndSymbols">
+    <keyboard-shortcut first-keystroke="alt #10000d1" />
+  </action>
   <action id="ExternalSystem.OpenConfig" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="shift ctrl o" />
@@ -228,6 +231,10 @@
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="v" />
     <keyboard-shortcut first-keystroke="shift f9" />
     <keyboard-shortcut first-keystroke="ctrl i" />
+  </action>
+  <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.PreviewOnlyLayoutChangeAction">
+    <keyboard-shortcut first-keystroke="shift ctrl v" />
+    <keyboard-shortcut first-keystroke="ctrl #10000d1" />
   </action>
   <action id="osmedile.intellij.stringmanip.SwitchCasePopup">
     <keyboard-shortcut first-keystroke="alt c" />
