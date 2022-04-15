@@ -189,7 +189,4 @@
       <option name="FLUTTER" value="true" />
     </context>
   </template>
-  <template name="importM" value="import 'package:flutter/material.dart';" description="Import Material Package" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
 </templateSet>
