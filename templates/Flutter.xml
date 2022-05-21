@@ -182,7 +182,7 @@
       <option name="FLUTTER" value="true" />
     </context>
   </template>
-  <template name="imptime" value="import 'package:time/time.dart';" toReformat="false" toShortenFQNames="true">
+  <template name="imptime" value="import 'package:time/time.dart';" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="FLUTTER" value="true" />
     </context>
