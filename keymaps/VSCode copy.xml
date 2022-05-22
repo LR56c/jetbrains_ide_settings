@@ -10,7 +10,6 @@
     <keyboard-shortcut first-keystroke="alt 9" />
   </action>
   <action id="ActivateProjectToolWindow">
-    <keyboard-shortcut first-keystroke="shift ctrl e" />
     <keyboard-shortcut first-keystroke="alt 1" />
   </action>
   <action id="ActivateRunToolWindow">
@@ -86,6 +85,9 @@
     <keyboard-shortcut first-keystroke="alt s" />
   </action>
   <action id="EditorToggleColumnMode" />
+  <action id="EmojiAndSymbols">
+    <keyboard-shortcut first-keystroke="alt #10000d1" />
+  </action>
   <action id="ExternalSystem.OpenConfig" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="shift ctrl o" />
