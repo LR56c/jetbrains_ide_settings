@@ -187,4 +187,14 @@
       <option name="FLUTTER" value="true" />
     </context>
   </template>
+  <template name="fmedqf" value="final size = MediaQuery.of(context).size;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
+  <template name="fmedq" value="MediaQuery.of(context).size;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
 </templateSet>
