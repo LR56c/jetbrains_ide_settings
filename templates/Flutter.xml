@@ -187,12 +187,12 @@
       <option name="FLUTTER" value="true" />
     </context>
   </template>
-  <template name="fmedqf" value="final size = MediaQuery.of(context).size;" toReformat="false" toShortenFQNames="true">
+  <template name="fmedqf" value="final size = MediaQuery.of(context).size;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="FLUTTER" value="true" />
     </context>
   </template>
-  <template name="fmedq" value="MediaQuery.of(context).size;" toReformat="false" toShortenFQNames="true">
+  <template name="fmedq" value="MediaQuery.of(context).size;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="FLUTTER" value="true" />
     </context>
