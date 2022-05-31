@@ -1,0 +1,241 @@
+<keymap version="1" name="VSCode copy" parent="VSCode">
+  <action id="AceAction">
+    <keyboard-shortcut first-keystroke="shift context_menu" />
+  </action>
+  <action id="ActivateDebugToolWindow">
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
+    <keyboard-shortcut first-keystroke="alt quote" />
+  </action>
+  <action id="ActivateMessagesToolWindow">
+    <keyboard-shortcut first-keystroke="alt 9" />
+  </action>
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="alt 1" />
+  </action>
+  <action id="ActivateRunToolWindow">
+    <keyboard-shortcut first-keystroke="shift ctrl u" />
+    <keyboard-shortcut first-keystroke="alt 5" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt 4" />
+  </action>
+  <action id="CIDR.Lang.ObjC.IntroduceProperty" />
+  <action id="ChangeSplitOrientation">
+    <keyboard-shortcut first-keystroke="f3" second-keystroke="up" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="alt a" />
+  </action>
+  <action id="Console.History.Browse" />
+  <action id="Dart.DartStyle">
+    <keyboard-shortcut first-keystroke="shift f" />
+  </action>
+  <action id="Debugger.EditFrameSource" />
+  <action id="DomCollectionControl.Edit" />
+  <action id="DomElementsTreeView.GotoDomElementDeclarationAction" />
+  <action id="DummyText">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
+  <action id="EditSource" />
+  <action id="EditorChooseLookupItemCompleteStatement">
+    <keyboard-shortcut first-keystroke="shift space" />
+  </action>
+  <action id="EditorCompleteStatement">
+    <keyboard-shortcut first-keystroke="shift space" />
+  </action>
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="shift ctrl k" />
+    <keyboard-shortcut first-keystroke="shift x" />
+  </action>
+  <action id="EditorDeleteToLineEnd">
+    <keyboard-shortcut first-keystroke="ctrl delete" />
+  </action>
+  <action id="EditorDeleteToLineStart">
+    <keyboard-shortcut first-keystroke="ctrl back_space" />
+  </action>
+  <action id="EditorDeleteToWordEnd" />
+  <action id="EditorDeleteToWordStart" />
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="ctrl #10000bf" />
+  </action>
+  <action id="EditorMatchBrace">
+    <keyboard-shortcut first-keystroke="alt less" />
+  </action>
+  <action id="EditorMoveToPageBottomWithSelection" />
+  <action id="EditorMoveToPageTopWithSelection" />
+  <action id="EditorNextWordInDifferentHumpsModeWithSelection">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="EditorPageDownWithSelection">
+    <keyboard-shortcut first-keystroke="shift page_down" />
+  </action>
+  <action id="EditorPageUpWithSelection">
+    <keyboard-shortcut first-keystroke="shift page_up" />
+  </action>
+  <action id="EditorPreviousWordInDifferentHumpsModeWithSelection">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
+  <action id="EditorSelectLine">
+    <keyboard-shortcut first-keystroke="shift e" />
+  </action>
+  <action id="EditorSplitLine">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
+  <action id="EditorSwapSelectionBoundaries">
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
+  <action id="EditorToggleColumnMode" />
+  <action id="EmojiAndSymbols">
+    <keyboard-shortcut first-keystroke="alt #10000d1" />
+  </action>
+  <action id="ExternalSystem.OpenConfig" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+    <keyboard-shortcut first-keystroke="ctrl q" />
+  </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="ctrl alt e" />
+  </action>
+  <action id="FindPrevious">
+    <keyboard-shortcut first-keystroke="ctrl alt q" />
+  </action>
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="alt f7" />
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
+  <action id="FindWordAtCaret">
+    <keyboard-shortcut first-keystroke="shift w" />
+  </action>
+  <action id="Flutter.ExtractWidgetToFile" />
+  <action id="Flutter.JumpToSource" />
+  <action id="Flutter.Toolbar.ReloadAction">
+    <keyboard-shortcut first-keystroke="ctrl #100007c" />
+  </action>
+  <action id="GotoSymbol" />
+  <action id="HippieBackwardCompletion">
+    <keyboard-shortcut first-keystroke="shift l" />
+  </action>
+  <action id="HippieCompletion">
+    <keyboard-shortcut first-keystroke="shift k" />
+  </action>
+  <action id="InsertLiveTemplate">
+    <keyboard-shortcut first-keystroke="shift q" />
+  </action>
+  <action id="MethodDown">
+    <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
+  <action id="MethodUp">
+    <keyboard-shortcut first-keystroke="ctrl up" />
+  </action>
+  <action id="Move" />
+  <action id="MoveTabDown">
+    <keyboard-shortcut first-keystroke="f3" second-keystroke="shift down" />
+  </action>
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="f3" second-keystroke="shift right" />
+  </action>
+  <action id="NavBar-navigate" />
+  <action id="NextOccurence">
+    <keyboard-shortcut first-keystroke="alt page_up" />
+  </action>
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="ctrl braceright" />
+  </action>
+  <action id="OpenInRightSplit">
+    <mouse-shortcut keystroke="alt button1 doubleClick" />
+  </action>
+  <action id="OpenModuleSettings" />
+  <action id="PrevSplitter">
+    <keyboard-shortcut first-keystroke="ctrl braceleft" />
+  </action>
+  <action id="PreviousOccurence">
+    <keyboard-shortcut first-keystroke="alt page_down" />
+  </action>
+  <action id="ProjectViewEditSource" />
+  <action id="RefactoringMenu">
+    <keyboard-shortcut first-keystroke="shift t" />
+  </action>
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+    <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
+  <action id="ScrollPane-scrollDown" />
+  <action id="ScrollPane-scrollUp" />
+  <action id="ScrollPane-unitScrollDown" />
+  <action id="ScrollPane-unitScrollUp" />
+  <action id="SelectAllOccurrences">
+    <keyboard-shortcut first-keystroke="shift a" />
+  </action>
+  <action id="ShowBookmarks">
+    <keyboard-shortcut first-keystroke="ctrl f9" />
+    <keyboard-shortcut first-keystroke="f6" />
+  </action>
+  <action id="SmartTypeCompletion">
+    <keyboard-shortcut first-keystroke="alt t" />
+  </action>
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="f3" second-keystroke="down" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="f3" second-keystroke="right" />
+  </action>
+  <action id="Sql.EditParameter" />
+  <action id="StatefulWidgetGenerator">
+    <keyboard-shortcut first-keystroke="alt k" />
+  </action>
+  <action id="StatelessWidgetGenerator">
+    <keyboard-shortcut first-keystroke="alt l" />
+  </action>
+  <action id="StringManipulation.SelectWordInDifferentHumpsModeAction">
+    <keyboard-shortcut first-keystroke="alt e" />
+  </action>
+  <action id="SurroundWith">
+    <keyboard-shortcut first-keystroke="shift alt q" />
+  </action>
+  <action id="ToggleBookmark">
+    <keyboard-shortcut first-keystroke="ctrl f11" />
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="ToggleBookmarkWithMnemonic" />
+  <action id="ToggleFindInSelection" />
+  <action id="ToggleRenderedDocPresentation" />
+  <action id="UnselectPreviousOccurrence">
+    <keyboard-shortcut first-keystroke="ctrl u" />
+    <keyboard-shortcut first-keystroke="shift alt d" />
+  </action>
+  <action id="Unsplit">
+    <keyboard-shortcut first-keystroke="f3" second-keystroke="enter" />
+  </action>
+  <action id="UnsplitAll">
+    <keyboard-shortcut first-keystroke="f3" second-keystroke="shift enter" />
+  </action>
+  <action id="UpdateRunningApplication" />
+  <action id="Vcs.EditSource" />
+  <action id="XDebugger.JumpToSource" />
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl f10" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="ctrl alt f10" />
+  </action>
+  <action id="codes.spidev.pubassist.action.PubAssist">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
+  <action id="de.netnexus.CamelCasePlugin.ToggleCamelCase">
+    <keyboard-shortcut first-keystroke="shift alt u" />
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
+  <action id="hg4idea.QFold" />
+  <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.EditorAndPreviewLayoutChangeAction">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="v" />
+    <keyboard-shortcut first-keystroke="shift f9" />
+    <keyboard-shortcut first-keystroke="ctrl i" />
+  </action>
+  <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.PreviewOnlyLayoutChangeAction">
+    <keyboard-shortcut first-keystroke="shift ctrl v" />
+    <keyboard-shortcut first-keystroke="ctrl #10000d1" />
+  </action>
+  <action id="osmedile.intellij.stringmanip.SwitchCasePopup">
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
+</keymap>

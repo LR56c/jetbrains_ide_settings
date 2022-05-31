@@ -1,0 +1,15 @@
+<templateSet group="Python">
+  <template name="f" value="f'{$var$}'" description="f&quot;&quot;" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="hol" value="'Hola $A1$, Como estas $A2$?'$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="A1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="A2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>
