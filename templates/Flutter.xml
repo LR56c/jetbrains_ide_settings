@@ -197,4 +197,9 @@
       <option name="FLUTTER" value="true" />
     </context>
   </template>
+  <template name="strm" value="Stream&lt;$type$&gt; get name =&gt; _$nameController$.stream; &#10;  final _$nameController$ = StreamController&lt;$type$&gt;();" description="StreamController" toReformat="true" toShortenFQNames="true">
+    <variable name="type" expression="$type$" defaultValue="" alwaysStopAt="true" />
+    <variable name="nameController" expression="$nameController$" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
 </templateSet>
