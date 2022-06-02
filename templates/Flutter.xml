@@ -197,7 +197,7 @@
       <option name="FLUTTER" value="true" />
     </context>
   </template>
-  <template name="st" value="setState(() {});" toReformat="false" toShortenFQNames="true">
+  <template name="st" value="setState(() {});" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="FLUTTER" value="true" />
     </context>
