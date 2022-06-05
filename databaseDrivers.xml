@@ -1,0 +1,25 @@
+<application>
+  <component name="LocalDatabaseDriverManager" version="201">
+    <driver id="oracle.19">
+      <artifact id="Oracle" name="Oracle" channel="fixed" rolling="false" use="true" version="21.1.0.0" />
+    </driver>
+    <driver id="81491d8a-087a-48e8-9746-0017c58175f2" based-on="oracle.base" name="Oracle [OCI]">
+      <constraints>
+        <constraint dbms="ORACLE" from="11.2" />
+      </constraints>
+      <artifact id="Oracle" name="Oracle" channel="fixed" rolling="false" use="true" version="19.8.0.0" />
+      <library>
+        <url>file://O:/instantclient_21_3/ojdbc8.jar</url>
+      </library>
+      <library>
+        <url>file://O:/instantclient_21_3/ojdbc10.jar</url>
+      </library>
+      <library>
+        <url>file://O:/instantclient_21_3/ucp.jar</url>
+      </library>
+      <library native="true">
+        <url>file://O:/instantclient_21_3</url>
+      </library>
+    </driver>
+  </component>
+</application>
