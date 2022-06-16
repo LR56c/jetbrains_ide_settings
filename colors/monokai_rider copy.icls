@@ -3,7 +3,7 @@
     <property name="created">2022-01-25T21:39:48</property>
     <property name="ide">AndroidStudio</property>
     <property name="ideVersion">2020.3.1.26</property>
-    <property name="modified">2022-03-27T20:22:30</property>
+    <property name="modified">2022-06-12T17:52:42</property>
     <property name="originalScheme">monokai_rider copy</property>
   </metaInfo>
   <attributes>
@@ -119,7 +119,7 @@
         <option name="FOREGROUND" value="ffd866" />
       </value>
     </option>
-    <option name="Class" baseAttributes="" />
+    <option name="Class" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="DART_ANNOTATION">
       <value>
         <option name="FOREGROUND" value="ffd866" />
@@ -824,6 +824,11 @@
     </option>
     <option name="KOTLIN_LABEL">
       <value />
+    </option>
+    <option name="KOTLIN_NAMED_ARGUMENT">
+      <value>
+        <option name="FOREGROUND" value="888d4b" />
+      </value>
     </option>
     <option name="KOTLIN_PACKAGE_FUNCTION_CALL">
       <value>
@@ -1741,6 +1746,56 @@
     <option name="YAML_TEXT">
       <value>
         <option name="FOREGROUND" value="e6db74" />
+      </value>
+    </option>
+    <option name="org.rust.ATTRIBUTE">
+      <value>
+        <option name="FOREGROUND" value="ffd866" />
+      </value>
+    </option>
+    <option name="org.rust.CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="ffd866" />
+      </value>
+    </option>
+    <option name="org.rust.CRATE">
+      <value>
+        <option name="FOREGROUND" value="dda0dd" />
+      </value>
+    </option>
+    <option name="org.rust.ENUM_VARIANT">
+      <value>
+        <option name="FOREGROUND" value="ffd866" />
+      </value>
+    </option>
+    <option name="org.rust.FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="fc9867" />
+      </value>
+    </option>
+    <option name="org.rust.MACRO">
+      <value>
+        <option name="FOREGROUND" value="ac56d9" />
+      </value>
+    </option>
+    <option name="org.rust.METHOD_CALL">
+      <value>
+        <option name="FOREGROUND" value="fc9867" />
+      </value>
+    </option>
+    <option name="org.rust.MODULE">
+      <value>
+        <option name="FOREGROUND" value="dda0dd" />
+      </value>
+    </option>
+    <option name="org.rust.Q_OPERATOR">
+      <value>
+        <option name="FOREGROUND" value="ab9df2" />
+      </value>
+    </option>
+    <option name="org.rust.TYPE_ALIAS">
+      <value>
+        <option name="FOREGROUND" value="fd3895" />
       </value>
     </option>
   </attributes>
