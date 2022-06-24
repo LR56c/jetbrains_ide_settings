@@ -4,4 +4,14 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="&lt;" value="()=&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="&lt;&lt;" value="()=&gt;{}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
