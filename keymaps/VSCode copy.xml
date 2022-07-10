@@ -85,6 +85,18 @@
     <keyboard-shortcut first-keystroke="alt s" />
   </action>
   <action id="EditorToggleColumnMode" />
+  <action id="EmmetEverywhere">
+    <keyboard-shortcut first-keystroke="ctrl alt close_bracket" />
+    <keyboard-shortcut first-keystroke="alt braceright" />
+  </action>
+  <action id="EmmetNextEditPoint">
+    <keyboard-shortcut first-keystroke="shift alt close_bracket" />
+    <keyboard-shortcut first-keystroke="shift alt braceright" />
+  </action>
+  <action id="EmmetPreviousEditPoint">
+    <keyboard-shortcut first-keystroke="shift alt open_bracket" />
+    <keyboard-shortcut first-keystroke="shift alt braceleft" />
+  </action>
   <action id="EmojiAndSymbols">
     <keyboard-shortcut first-keystroke="alt #10000d1" />
   </action>
