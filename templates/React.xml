@@ -199,4 +199,27 @@
     <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="rr" value="return(&#10;  $SELECTION$&#10;)" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ef&lt;" value="export $N$ = () =&gt; {&#10;  $SELECTION$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="N" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ef" value="export function $N$(){&#10;  $SELECTION$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="N" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="efc&lt;" value="export const $N$ = () =&gt; {&#10;  $SELECTION$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="N" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
