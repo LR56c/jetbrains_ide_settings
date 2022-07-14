@@ -19,6 +19,10 @@
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt 4" />
   </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+    <keyboard-shortcut first-keystroke="alt 9" />
+  </action>
   <action id="CIDR.Lang.ObjC.IntroduceProperty" />
   <action id="ChangeSplitOrientation">
     <keyboard-shortcut first-keystroke="f3" second-keystroke="up" />
@@ -85,6 +89,18 @@
     <keyboard-shortcut first-keystroke="alt s" />
   </action>
   <action id="EditorToggleColumnMode" />
+  <action id="EmmetEverywhere">
+    <keyboard-shortcut first-keystroke="ctrl alt close_bracket" />
+    <keyboard-shortcut first-keystroke="alt braceright" />
+  </action>
+  <action id="EmmetNextEditPoint">
+    <keyboard-shortcut first-keystroke="shift alt close_bracket" />
+    <keyboard-shortcut first-keystroke="shift alt braceright" />
+  </action>
+  <action id="EmmetPreviousEditPoint">
+    <keyboard-shortcut first-keystroke="shift alt open_bracket" />
+    <keyboard-shortcut first-keystroke="shift alt braceleft" />
+  </action>
   <action id="EmojiAndSymbols">
     <keyboard-shortcut first-keystroke="alt #10000d1" />
   </action>
@@ -110,6 +126,10 @@
   <action id="Flutter.JumpToSource" />
   <action id="Flutter.Toolbar.ReloadAction">
     <keyboard-shortcut first-keystroke="ctrl #100007c" />
+  </action>
+  <action id="ForceRefresh">
+    <keyboard-shortcut first-keystroke="shift ctrl #100007c" />
+    <keyboard-shortcut first-keystroke="shift ctrl f5" />
   </action>
   <action id="GotoSymbol" />
   <action id="HippieBackwardCompletion">
