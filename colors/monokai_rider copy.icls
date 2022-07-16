@@ -3,7 +3,7 @@
     <property name="created">2022-01-25T21:39:48</property>
     <property name="ide">AndroidStudio</property>
     <property name="ideVersion">2020.3.1.26</property>
-    <property name="modified">2022-07-14T19:50:02</property>
+    <property name="modified">2022-07-15T20:34:26</property>
     <property name="originalScheme">monokai_rider copy</property>
   </metaInfo>
   <attributes>
@@ -654,7 +654,9 @@
       </value>
     </option>
     <option name="JS.LOCAL_FUNCTION">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="fc9867" />
+      </value>
     </option>
     <option name="JS.LOCAL_VARIABLE">
       <value>
