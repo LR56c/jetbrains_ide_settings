@@ -228,4 +228,12 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="jo" value="&quot;$S1$&quot;: &quot;$S2$&quot;," description="json obj" toReformat="false" toShortenFQNames="true">
+    <variable name="S1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="S2" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="je" value="$S1$: $S2$," description="json entry" toReformat="false" toShortenFQNames="true">
+    <variable name="S1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="S2" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
 </templateSet>
