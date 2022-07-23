@@ -89,10 +89,6 @@
     <keyboard-shortcut first-keystroke="alt s" />
   </action>
   <action id="EditorToggleColumnMode" />
-  <action id="EmmetEverywhere">
-    <keyboard-shortcut first-keystroke="ctrl alt close_bracket" />
-    <keyboard-shortcut first-keystroke="alt braceright" />
-  </action>
   <action id="EmmetNextEditPoint">
     <keyboard-shortcut first-keystroke="shift alt close_bracket" />
     <keyboard-shortcut first-keystroke="shift alt braceright" />
@@ -251,6 +247,15 @@
   </action>
   <action id="codes.spidev.pubassist.action.PubAssist">
     <keyboard-shortcut first-keystroke="alt p" />
+  </action>
+  <action id="copilot.cycleNextInlays">
+    <keyboard-shortcut first-keystroke="alt braceright" />
+  </action>
+  <action id="copilot.cyclePrevInlays">
+    <keyboard-shortcut first-keystroke="alt braceleft" />
+  </action>
+  <action id="copilot.requestCompletions">
+    <keyboard-shortcut first-keystroke="alt period" />
   </action>
   <action id="hg4idea.QFold" />
   <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.EditorAndPreviewLayoutChangeAction">
