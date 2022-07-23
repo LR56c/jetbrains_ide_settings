@@ -228,4 +228,35 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="jo" value="&quot;$S1$&quot;: &quot;$S2$&quot;," description="json obj" toReformat="false" toShortenFQNames="true">
+    <variable name="S1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="S2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="je" value="$S1$: $S2$," description="json entry" toReformat="false" toShortenFQNames="true">
+    <variable name="S1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="S2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="f" value="&lt;$S1$&#10;  $S2$&#10;&gt;&#10;  $S3$&#10;&lt;/$S1$&gt;" description="format" toReformat="false" toShortenFQNames="true">
+    <variable name="S1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="S2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="S3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="p" value="$S1$=&quot;$S2$&quot;" description="param" toReformat="false" toShortenFQNames="true">
+    <variable name="S1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="S2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>

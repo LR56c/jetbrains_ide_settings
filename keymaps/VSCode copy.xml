@@ -89,10 +89,6 @@
     <keyboard-shortcut first-keystroke="alt s" />
   </action>
   <action id="EditorToggleColumnMode" />
-  <action id="EmmetEverywhere">
-    <keyboard-shortcut first-keystroke="ctrl alt close_bracket" />
-    <keyboard-shortcut first-keystroke="alt braceright" />
-  </action>
   <action id="EmmetNextEditPoint">
     <keyboard-shortcut first-keystroke="shift alt close_bracket" />
     <keyboard-shortcut first-keystroke="shift alt braceright" />
@@ -172,6 +168,10 @@
     <keyboard-shortcut first-keystroke="alt page_down" />
   </action>
   <action id="ProjectViewEditSource" />
+  <action id="RecentFiles">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="RecentProjectListGroup" />
   <action id="RefactoringMenu">
     <keyboard-shortcut first-keystroke="shift t" />
   </action>
@@ -189,6 +189,9 @@
   <action id="ShowBookmarks">
     <keyboard-shortcut first-keystroke="ctrl f9" />
     <keyboard-shortcut first-keystroke="f6" />
+  </action>
+  <action id="ShowPopupMenu">
+    <keyboard-shortcut first-keystroke="context_menu" />
   </action>
   <action id="SmartTypeCompletion">
     <keyboard-shortcut first-keystroke="alt t" />
@@ -212,6 +215,9 @@
   <action id="SurroundWith">
     <keyboard-shortcut first-keystroke="shift alt q" />
   </action>
+  <action id="SwitcherIterateItems">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="ctrl f11" />
     <keyboard-shortcut first-keystroke="f4" />
@@ -230,6 +236,7 @@
     <keyboard-shortcut first-keystroke="f3" second-keystroke="shift enter" />
   </action>
   <action id="UpdateRunningApplication" />
+  <action id="UsageFiltering.ReadAccess" />
   <action id="Vcs.EditSource" />
   <action id="XDebugger.JumpToSource" />
   <action id="android.deploy.ApplyChanges">
@@ -240,6 +247,15 @@
   </action>
   <action id="codes.spidev.pubassist.action.PubAssist">
     <keyboard-shortcut first-keystroke="alt p" />
+  </action>
+  <action id="copilot.cycleNextInlays">
+    <keyboard-shortcut first-keystroke="alt braceright" />
+  </action>
+  <action id="copilot.cyclePrevInlays">
+    <keyboard-shortcut first-keystroke="alt braceleft" />
+  </action>
+  <action id="copilot.requestCompletions">
+    <keyboard-shortcut first-keystroke="alt period" />
   </action>
   <action id="hg4idea.QFold" />
   <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.EditorAndPreviewLayoutChangeAction">
