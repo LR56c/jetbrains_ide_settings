@@ -247,6 +247,10 @@
   <action id="UsageFiltering.ReadAccess" />
   <action id="Vcs.EditSource" />
   <action id="XDebugger.JumpToSource" />
+  <action id="aligncarets.AlignAction">
+    <keyboard-shortcut first-keystroke="shift ctrl back_slash" />
+    <keyboard-shortcut first-keystroke="ctrl #10000d1" />
+  </action>
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl f10" />
   </action>
