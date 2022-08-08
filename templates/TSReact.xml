@@ -9,7 +9,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="efcr" value="export const $NAME$: FC&lt;$typeProps$&gt; = ($END$) =&gt; {&#10;  return (&#10;    &lt;div&gt;$NAME$&lt;/div&gt;&#10;  )&#10;}" description="export fc resume" toReformat="false" toShortenFQNames="true">
+  <template name="efcr" value="const $NAME$: FC&lt;$typeProps$&gt; = ($END$) =&gt; {&#10;  return (&#10;    &lt;div&gt;$NAME$&lt;/div&gt;&#10;  )&#10;}&#10;&#10;export default $NAME$ " description="export fc resume" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="typeProps" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
