@@ -7,18 +7,18 @@
       <constraints>
         <constraint dbms="ORACLE" from="11.2" />
       </constraints>
-      <artifact id="Oracle" name="Oracle" channel="fixed" rolling="false" use="true" version="19.8.0.0" />
+      <artifact />
       <library>
-        <url>file://O:/instantclient_21_3/ojdbc8.jar</url>
+        <url>file://O:/instantclient_21_6/ojdbc8.jar</url>
       </library>
       <library>
-        <url>file://O:/instantclient_21_3/ojdbc10.jar</url>
+        <url>file://O:/instantclient_21_6/orai18n.jar</url>
       </library>
       <library>
-        <url>file://O:/instantclient_21_3/ucp.jar</url>
+        <url>file://O:/instantclient_21_6/oraclepki.jar</url>
       </library>
       <library native="true">
-        <url>file://O:/instantclient_21_3</url>
+        <url>file://O:/instantclient_21_6</url>
       </library>
     </driver>
   </component>
