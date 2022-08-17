@@ -259,4 +259,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="calc" value="calc($S1$vh - $END$)" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="S1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>

@@ -16,7 +16,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="c" value="export const $NAME$Context = createContext({} as $END$);&#10;const { Provider } = $NAME$Context;" description="create context" toReformat="false" toShortenFQNames="true">
+  <template name="c" value="export const $NAME$Context = createContext({} as $END$);&#10;const { Provider } = $NAME$Context; // resume only" description="create context" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
@@ -30,6 +30,16 @@
   <template name="efcd" value="const $NAME$: FC&lt;$typeProps$&gt; = ($END$) =&gt; {&#10;  return (&#10;    &lt;div&gt;$NAME$&lt;/div&gt;&#10;  )&#10;}&#10;&#10;export default $NAME$ " description="export fc default" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="typeProps" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="nd" value="import Document, {&#10;  DocumentContext,&#10;  Head,&#10;  Html,&#10;  Main,&#10;  NextScript&#10;} from &quot;next/document&quot;&#10;&#10;class MyDocument extends Document&#10;{&#10;  static async getInitialProps( ctx: DocumentContext )&#10;  {&#10;    const initialProps = await Document.getInitialProps( ctx );&#10;    return initialProps;&#10;  }&#10;&#10;  render()&#10;  {&#10;    return (&#10;      &lt;Html&gt;&#10;        &lt;Head&gt;&#10;        &lt;/Head&gt;&#10;        &lt;body&gt;&#10;        &lt;Main/&gt;&#10;        &lt;NextScript/&gt;&#10;        &lt;/body&gt;&#10;      &lt;/Html&gt;&#10;    )&#10;  }&#10;}&#10;&#10;export default MyDocument;" description="next document" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="rh" value="import type { NextApiRequest, NextApiResponse } from 'next'&#10;&#10;type Data = {&#10;  message: string&#10;}&#10;&#10;export default function handler( req: NextApiRequest, res: NextApiResponse&lt;Data&gt; ) {&#10;&#10;  res.status(200).json({ message: 'Example'})&#10;}&#10;" description="next request handler" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="TypeScript" value="true" />
     </context>
