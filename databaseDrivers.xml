@@ -7,15 +7,15 @@
       <constraints>
         <constraint dbms="ORACLE" from="11.2" />
       </constraints>
-      <artifact />
-      <library>
-        <url>file://O:/instantclient_21_6/ojdbc8.jar</url>
-      </library>
+      <artifact id="Oracle" name="Oracle" channel="fixed" rolling="false" use="true" version="21.5.0.0" />
       <library>
         <url>file://O:/instantclient_21_6/orai18n.jar</url>
       </library>
       <library>
         <url>file://O:/instantclient_21_6/oraclepki.jar</url>
+      </library>
+      <library>
+        <url>file://O:/instantclient_21_6/ojdbc8.jar</url>
       </library>
       <library native="true">
         <url>file://O:/instantclient_21_6</url>
