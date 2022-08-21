@@ -39,4 +39,9 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="rh" value="import type { NextApiRequest, NextApiResponse } from 'next'&#10;&#10;type Data = {&#10;  message: string&#10;}&#10;&#10;export default function handler( req: NextApiRequest, res: NextApiResponse&lt;Data&gt; ) {&#10;&#10;  res.status(200).json({ message: 'Example'})&#10;}&#10;" description="next request handler" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
