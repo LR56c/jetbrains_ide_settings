@@ -4,4 +4,9 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="style" value="import { StyleSheet } from &quot;react-native&quot;;&#10;&#10;export const styles = StyleSheet.create( {&#10;  $END$&#10;} )" description="StyleSheet.create" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
