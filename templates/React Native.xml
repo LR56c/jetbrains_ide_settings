@@ -1,0 +1,7 @@
+<templateSet group="React Native">
+  <template name="disable" value="rules:{&#10;  'prettier/prettier': 0,&#10;}," description="disable prettier" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
