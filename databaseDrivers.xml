@@ -19,24 +19,18 @@
       <constraints>
         <constraint dbms="ORACLE" from="11.2" />
       </constraints>
-      <artifact id="Oracle" name="Oracle" channel="fixed" rolling="false" use="true" version="21.1.0.0" />
+      <artifact id="Oracle" name="Oracle" channel="fixed" rolling="false" use="true" version="21.5.0.0" />
       <library>
-        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Oracle/21.1.0.0/orai18n.jar</url>
-      </library>
-      <library>
-        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Oracle/21.1.0.0/ojdbc8.jar</url>
+        <url>file://N:/instantclient_21_6/oraclepki.jar</url>
       </library>
       <library>
-        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Oracle/21.1.0.0/oraclepki.jar</url>
+        <url>file://N:/instantclient_21_6/orai18n.jar</url>
+      </library>
+      <library>
+        <url>file://N:/instantclient_21_6/ojdbc8.jar</url>
       </library>
       <library native="true">
-        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Oracle/21.1.0.0</url>
-      </library>
-      <library native="true">
-        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Oracle</url>
-      </library>
-      <library native="true">
-        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Oracle/21.1.0.0</url>
+        <url>file://N:/instantclient_21_6</url>
       </library>
     </driver>
   </component>
