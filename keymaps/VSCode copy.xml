@@ -67,6 +67,7 @@
   </action>
   <action id="EditorMatchBrace">
     <keyboard-shortcut first-keystroke="alt less" />
+    <keyboard-shortcut first-keystroke="multiply" />
   </action>
   <action id="EditorMoveToPageBottomWithSelection" />
   <action id="EditorMoveToPageTopWithSelection" />
