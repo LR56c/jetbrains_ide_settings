@@ -27,14 +27,12 @@
   <action id="ChangeSplitOrientation">
     <keyboard-shortcut first-keystroke="f3" second-keystroke="up" />
   </action>
-  <action id="CollapseBlock">
-    <keyboard-shortcut first-keystroke="ctrl alt open_bracket" />
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl l" />
-    <keyboard-shortcut first-keystroke="ctrl alt back_quote" />
-  </action>
   <action id="CollapseRegion">
     <keyboard-shortcut first-keystroke="shift ctrl open_bracket" />
     <keyboard-shortcut first-keystroke="shift ctrl back_quote" />
+  </action>
+  <action id="CollapseSelection">
+    <keyboard-shortcut first-keystroke="ctrl alt back_quote" />
   </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="alt a" />
