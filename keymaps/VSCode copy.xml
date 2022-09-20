@@ -27,6 +27,13 @@
   <action id="ChangeSplitOrientation">
     <keyboard-shortcut first-keystroke="f3" second-keystroke="up" />
   </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="shift ctrl open_bracket" />
+    <keyboard-shortcut first-keystroke="shift ctrl back_quote" />
+  </action>
+  <action id="CollapseSelection">
+    <keyboard-shortcut first-keystroke="ctrl alt back_quote" />
+  </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
@@ -67,6 +74,7 @@
   </action>
   <action id="EditorMatchBrace">
     <keyboard-shortcut first-keystroke="alt less" />
+    <keyboard-shortcut first-keystroke="multiply" />
   </action>
   <action id="EditorMoveToPageBottomWithSelection" />
   <action id="EditorMoveToPageTopWithSelection" />
@@ -107,6 +115,10 @@
   <action id="EmojiAndSymbols">
     <keyboard-shortcut first-keystroke="alt #10000d1" />
   </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="shift ctrl close_bracket" />
+    <keyboard-shortcut first-keystroke="shift ctrl plus" />
+  </action>
   <action id="ExternalSystem.OpenConfig" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="shift ctrl o" />
@@ -134,6 +146,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl #100007c" />
     <keyboard-shortcut first-keystroke="shift ctrl f5" />
   </action>
+  <action id="Git.Branches" />
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="alt f8" />
     <keyboard-shortcut first-keystroke="f8" />
@@ -229,6 +242,7 @@
   <action id="SwitcherIterateItems">
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
+  <action id="TerminalNewSession" />
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="ctrl f11" />
     <keyboard-shortcut first-keystroke="f4" />
