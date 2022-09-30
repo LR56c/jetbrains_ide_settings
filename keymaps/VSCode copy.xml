@@ -274,9 +274,11 @@
   </action>
   <action id="copilot.cycleNextInlays">
     <keyboard-shortcut first-keystroke="alt braceright" />
+    <keyboard-shortcut first-keystroke="alt #10000c7" />
   </action>
   <action id="copilot.cyclePrevInlays">
     <keyboard-shortcut first-keystroke="alt braceleft" />
+    <keyboard-shortcut first-keystroke="alt #10000b4" />
   </action>
   <action id="copilot.requestCompletions">
     <keyboard-shortcut first-keystroke="alt period" />
