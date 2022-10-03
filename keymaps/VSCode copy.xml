@@ -34,8 +34,9 @@
   <action id="CollapseSelection">
     <keyboard-shortcut first-keystroke="ctrl alt back_quote" />
   </action>
+  <action id="CommentByBlockComment" />
   <action id="CommentByLineComment">
-    <keyboard-shortcut first-keystroke="alt a" />
+    <keyboard-shortcut first-keystroke="shift alt a" />
   </action>
   <action id="Console.History.Browse" />
   <action id="Console.Jdbc.Execute">
@@ -57,9 +58,12 @@
   <action id="EditorCompleteStatement">
     <keyboard-shortcut first-keystroke="shift alt space" />
   </action>
+  <action id="EditorContextInfo">
+    <keyboard-shortcut first-keystroke="altGraph q" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
-    <keyboard-shortcut first-keystroke="shift x" />
+    <keyboard-shortcut first-keystroke="alt x" />
   </action>
   <action id="EditorDeleteToLineEnd">
     <keyboard-shortcut first-keystroke="ctrl delete" />
@@ -71,6 +75,7 @@
   <action id="EditorDeleteToWordStart" />
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl #10000bf" />
+    <keyboard-shortcut first-keystroke="ctrl inverted_exclamation_mark" />
   </action>
   <action id="EditorMatchBrace">
     <keyboard-shortcut first-keystroke="alt less" />
@@ -91,7 +96,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt left" />
   </action>
   <action id="EditorSelectLine">
-    <keyboard-shortcut first-keystroke="shift e" />
+    <keyboard-shortcut first-keystroke="alt e" />
   </action>
   <action id="EditorSplitLine">
     <keyboard-shortcut first-keystroke="ctrl s" />
@@ -134,9 +139,6 @@
     <keyboard-shortcut first-keystroke="alt f7" />
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
-  <action id="FindWordAtCaret">
-    <keyboard-shortcut first-keystroke="shift w" />
-  </action>
   <action id="Flutter.ExtractWidgetToFile" />
   <action id="Flutter.JumpToSource" />
   <action id="Flutter.Toolbar.ReloadAction">
@@ -152,14 +154,11 @@
     <keyboard-shortcut first-keystroke="f8" />
   </action>
   <action id="GotoSymbol" />
-  <action id="HippieBackwardCompletion">
-    <keyboard-shortcut first-keystroke="shift l" />
-  </action>
-  <action id="HippieCompletion">
-    <keyboard-shortcut first-keystroke="shift k" />
-  </action>
+  <action id="Graph.AlignNodes.Top" />
+  <action id="HippieBackwardCompletion" />
+  <action id="HippieCompletion" />
   <action id="InsertLiveTemplate">
-    <keyboard-shortcut first-keystroke="shift q" />
+    <keyboard-shortcut first-keystroke="alt q" />
   </action>
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="ctrl down" />
@@ -180,6 +179,7 @@
   </action>
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="ctrl braceright" />
+    <keyboard-shortcut first-keystroke="ctrl #10000c7" />
   </action>
   <action id="OpenInRightSplit">
     <mouse-shortcut keystroke="alt button1 doubleClick" />
@@ -187,6 +187,7 @@
   <action id="OpenModuleSettings" />
   <action id="PrevSplitter">
     <keyboard-shortcut first-keystroke="ctrl braceleft" />
+    <keyboard-shortcut first-keystroke="ctrl #10000b4" />
   </action>
   <action id="PreviousOccurence">
     <keyboard-shortcut first-keystroke="alt page_down" />
@@ -197,7 +198,7 @@
   </action>
   <action id="RecentProjectListGroup" />
   <action id="RefactoringMenu">
-    <keyboard-shortcut first-keystroke="shift t" />
+    <keyboard-shortcut first-keystroke="alt t" />
   </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
@@ -208,7 +209,7 @@
   <action id="ScrollPane-unitScrollDown" />
   <action id="ScrollPane-unitScrollUp" />
   <action id="SelectAllOccurrences">
-    <keyboard-shortcut first-keystroke="shift a" />
+    <keyboard-shortcut first-keystroke="alt a" />
   </action>
   <action id="ShowBookmarks">
     <keyboard-shortcut first-keystroke="ctrl f9" />
@@ -216,9 +217,6 @@
   </action>
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="context_menu" />
-  </action>
-  <action id="SmartTypeCompletion">
-    <keyboard-shortcut first-keystroke="alt t" />
   </action>
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="f3" second-keystroke="down" />
@@ -232,9 +230,6 @@
   </action>
   <action id="StatelessWidgetGenerator">
     <keyboard-shortcut first-keystroke="alt l" />
-  </action>
-  <action id="StringManipulation.SelectWordInDifferentHumpsModeAction">
-    <keyboard-shortcut first-keystroke="alt e" />
   </action>
   <action id="SurroundWith">
     <keyboard-shortcut first-keystroke="shift alt q" />
@@ -279,9 +274,11 @@
   </action>
   <action id="copilot.cycleNextInlays">
     <keyboard-shortcut first-keystroke="alt braceright" />
+    <keyboard-shortcut first-keystroke="alt #10000c7" />
   </action>
   <action id="copilot.cyclePrevInlays">
     <keyboard-shortcut first-keystroke="alt braceleft" />
+    <keyboard-shortcut first-keystroke="alt #10000b4" />
   </action>
   <action id="copilot.requestCompletions">
     <keyboard-shortcut first-keystroke="alt period" />
