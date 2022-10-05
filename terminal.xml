@@ -1,6 +1,5 @@
 <application>
   <component name="TerminalOptionsProvider">
-    <option name="myShellPath" value="C:\Users\mauri\AppData\Local\Microsoft\WindowsApps\Microsoft.PowerShell_8wekyb3d8bbwe\pwsh.exe" />
     <option name="myTabName" value="terminal" />
   </component>
 </application>
