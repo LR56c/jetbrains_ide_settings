@@ -176,7 +176,6 @@
     <option name="FINALLY_ON_NEW_LINE" value="true" />
     <option name="ALIGN_MULTILINE_CHAINED_METHODS" value="true" />
     <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
-    <option name="ALIGN_MULTILINE_TERNARY_OPERATION" value="true" />
     <option name="ALIGN_MULTILINE_EXTENDS_LIST" value="true" />
     <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION" value="true" />
     <option name="SPACE_WITHIN_METHOD_CALL_PARENTHESES" value="true" />
@@ -194,7 +193,6 @@
     <option name="BINARY_OPERATION_WRAP" value="1" />
     <option name="BINARY_OPERATION_SIGN_ON_NEXT_LINE" value="true" />
     <option name="TERNARY_OPERATION_WRAP" value="5" />
-    <option name="TERNARY_OPERATION_SIGNS_ON_NEXT_LINE" value="true" />
     <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
     <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
     <option name="FOR_STATEMENT_WRAP" value="1" />
@@ -272,7 +270,6 @@
     <option name="FINALLY_ON_NEW_LINE" value="true" />
     <option name="ALIGN_MULTILINE_CHAINED_METHODS" value="true" />
     <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
-    <option name="ALIGN_MULTILINE_TERNARY_OPERATION" value="true" />
     <option name="ALIGN_MULTILINE_EXTENDS_LIST" value="true" />
     <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION" value="true" />
     <option name="SPACE_WITHIN_PARENTHESES" value="true" />
@@ -291,7 +288,6 @@
     <option name="BINARY_OPERATION_WRAP" value="1" />
     <option name="BINARY_OPERATION_SIGN_ON_NEXT_LINE" value="true" />
     <option name="TERNARY_OPERATION_WRAP" value="5" />
-    <option name="TERNARY_OPERATION_SIGNS_ON_NEXT_LINE" value="true" />
     <option name="FOR_STATEMENT_WRAP" value="2" />
     <option name="ARRAY_INITIALIZER_WRAP" value="1" />
     <option name="ARRAY_INITIALIZER_LBRACE_ON_NEXT_LINE" value="true" />
