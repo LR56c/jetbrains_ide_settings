@@ -9,7 +9,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="class" value="className=&quot;&quot;" toReformat="false" toShortenFQNames="true">
+  <template name="class" value="className=&quot;$END$&quot;" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="TypeScript" value="true" />
     </context>
