@@ -8,8 +8,9 @@
             <value value="420036eb4e752451" />
           </Key>
         </key>
-        <name value="Device" />
-        <target value="Android 1.0" />
+        <name value="samsung SM-G532M" />
+        <target value="Android 6.0" />
+        <api value="androidversion:23:null:null:true" />
       </PhysicalDevice>
     </physicalDevices>
   </component>
