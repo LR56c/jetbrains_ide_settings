@@ -22,4 +22,10 @@
   <template name="tl" value="&lt;$s$&gt;()$END$" description="&lt;typedList&gt;[]" toReformat="false" toShortenFQNames="true">
     <variable name="s" expression="" defaultValue="" alwaysStopAt="true" />
   </template>
+  <template name="region" value="//&lt;editor-fold desc=&quot;Data Methods&quot;&gt;&#10;$END$&#10;//&lt;/editor-fold&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
 </templateSet>
