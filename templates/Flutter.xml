@@ -195,7 +195,7 @@
       <option name="FLUTTER" value="true" />
     </context>
   </template>
-  <template name="routeName" value="static String get routeName =&gt; '$END$';&#10;static String get routeLocation =&gt; '/$routeName';" toReformat="false" toShortenFQNames="true">
+  <template name="routeName" value="static String get routeName =&gt; '$END$';&#10;static String get routeLocation =&gt; '/$routeName';" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="FLUTTER" value="true" />
     </context>
