@@ -10,7 +10,7 @@
         </key>
         <name value="samsung SM-G532M" />
         <target value="Android 6.0" />
-        <api value="23" />
+        <api value="androidversion:23:null:null:true" />
       </PhysicalDevice>
     </physicalDevices>
   </component>
