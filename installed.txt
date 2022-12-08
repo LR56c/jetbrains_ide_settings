@@ -1,0 +1,13 @@
+AceJump
+Dummy Text Generator
+String Manipulation
+app.pieces.plugins.jetbrains
+com.almightyalpaca.intellij.plugins.discord
+com.codestream.jetbrains-codestream
+com.intellij.plugins.vscodekeymap
+com.kite.intellij
+com.mallowigi
+com.tabnine.TabNine
+izhangzhihao.rainbow.brackets
+monokai-pro
+one.util.ideaplugin.screenshoter
