@@ -34,6 +34,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl open_bracket" />
     <keyboard-shortcut first-keystroke="shift ctrl back_quote" />
     <keyboard-shortcut first-keystroke="shift ctrl dead_grave" />
+    <keyboard-shortcut first-keystroke="shift ctrl dead_acute" />
   </action>
   <action id="CollapseSelection">
     <keyboard-shortcut first-keystroke="ctrl alt back_quote" />
