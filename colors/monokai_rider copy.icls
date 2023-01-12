@@ -3,7 +3,7 @@
     <property name="created">2022-01-25T21:39:48</property>
     <property name="ide">AndroidStudio</property>
     <property name="ideVersion">2020.3.1.26</property>
-    <property name="modified">2023-01-12T13:27:57</property>
+    <property name="modified">2023-01-12T13:34:08</property>
     <property name="originalScheme">monokai_rider copy</property>
   </metaInfo>
   <colors>
@@ -123,7 +123,7 @@
         <option name="FOREGROUND" value="ffd866" />
       </value>
     </option>
-    <option name="Class" baseAttributes="CLASS_NAME_ATTRIBUTES" />
+    <option name="Class" baseAttributes="" />
     <option name="DART_ANNOTATION">
       <value>
         <option name="FOREGROUND" value="ffd866" />
@@ -1818,6 +1818,21 @@
       </value>
     </option>
     <option name="org.vlang.CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="org.vlang.CT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="ac56d9" />
+      </value>
+    </option>
+    <option name="org.vlang.CT_FIELD">
+      <value>
+        <option name="FOREGROUND" value="ac56d9" />
+      </value>
+    </option>
+    <option name="org.vlang.CT_METHOD_CALL">
+      <value>
+        <option name="FOREGROUND" value="ac56d9" />
+      </value>
+    </option>
     <option name="org.vlang.ENUM" baseAttributes="DEFAULT_CLASS_NAME" />
     <option name="org.vlang.ENUM_FIELD">
       <value>
