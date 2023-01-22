@@ -6,8 +6,6 @@
           <value>
             <list>
               <option value="bundled" />
-              <option value="com.jetbrains.edu" />
-              <option value="org.jetbrains.settingsRepository" />
             </list>
           </value>
         </entry>
