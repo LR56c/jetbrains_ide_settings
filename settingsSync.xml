@@ -6,6 +6,7 @@
           <value>
             <list>
               <option value="bundled" />
+              <option value="deno" />
             </list>
           </value>
         </entry>
