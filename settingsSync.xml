@@ -1,9 +1,28 @@
 <application>
   <component name="SettingsSyncSettings">
-    <option name="disabledCategories">
-      <list>
-        <option value="PLUGINS" />
-      </list>
+    <option name="disabledSubcategories">
+      <map>
+        <entry key="PLUGINS">
+          <value>
+            <list>
+              <option value="AceJump" />
+              <option value="Dummy Text Generator" />
+              <option value="GrepConsole" />
+              <option value="Identifier Highlighter Reloaded" />
+              <option value="Key Promoter X" />
+              <option value="String Manipulation" />
+              <option value="com.almightyalpaca.intellij.plugins.discord" />
+              <option value="com.clutcher.comments_highlighter" />
+              <option value="com.fwdekker.randomness" />
+              <option value="com.github.copilot" />
+              <option value="com.github.ttyniwa.intellij.plugin.align" />
+              <option value="com.mallowigi" />
+              <option value="izhangzhihao.rainbow.brackets" />
+              <option value="org.jetbrains.settingsRepository" />
+            </list>
+          </value>
+        </entry>
+      </map>
     </option>
     <option name="migrationFromOldStorageChecked" value="true" />
   </component>
