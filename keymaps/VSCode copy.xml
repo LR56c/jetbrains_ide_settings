@@ -94,6 +94,10 @@
   <action id="EditorPageUpWithSelection">
     <keyboard-shortcut first-keystroke="shift page_up" />
   </action>
+  <action id="EditorPasteSimple">
+    <keyboard-shortcut first-keystroke="shift ctrl alt v" />
+    <keyboard-shortcut first-keystroke="shift ctrl v" />
+  </action>
   <action id="EditorPreviousWordInDifferentHumpsModeWithSelection">
     <keyboard-shortcut first-keystroke="ctrl alt left" />
   </action>
@@ -131,9 +135,6 @@
   </action>
   <action id="ExternalSystem.OpenConfig" />
   <action id="FileChooser.NewFile" />
-  <action id="FileChooserToolbar">
-    <keyboard-shortcut first-keystroke="ctrl n" />
-  </action>
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="shift ctrl o" />
     <keyboard-shortcut first-keystroke="ctrl q" />
@@ -164,12 +165,16 @@
     <keyboard-shortcut first-keystroke="f8" />
   </action>
   <action id="GotoSymbol" />
+  <action id="GotoTest">
+    <keyboard-shortcut first-keystroke="ctrl alt released t" />
+  </action>
   <action id="Graph.AlignNodes.Top" />
   <action id="HippieBackwardCompletion" />
   <action id="HippieCompletion" />
   <action id="InsertLiveTemplate">
     <keyboard-shortcut first-keystroke="alt q" />
   </action>
+  <action id="Markdown.Layout.PreviewOnly" />
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="ctrl down" />
   </action>
@@ -185,7 +190,7 @@
   </action>
   <action id="NavBar-navigate" />
   <action id="NewElementMenu">
-    <keyboard-shortcut first-keystroke="ctrl #10000d1" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
   <action id="NextOccurence">
     <keyboard-shortcut first-keystroke="alt page_up" />
@@ -215,6 +220,9 @@
   <action id="RecentFiles">
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
+  <action id="RecentLocations">
+    <keyboard-shortcut first-keystroke="shift alt r" />
+  </action>
   <action id="RecentProjectListGroup" />
   <action id="RefactoringMenu">
     <keyboard-shortcut first-keystroke="alt t" />
@@ -222,6 +230,10 @@
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
     <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="r" />
+    <keyboard-shortcut first-keystroke="shift alt e" />
   </action>
   <action id="ScrollPane-scrollDown" />
   <action id="ScrollPane-scrollUp" />
@@ -321,9 +333,6 @@
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="v" />
     <keyboard-shortcut first-keystroke="shift f9" />
     <keyboard-shortcut first-keystroke="ctrl i" />
-  </action>
-  <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.PreviewOnlyLayoutChangeAction">
-    <keyboard-shortcut first-keystroke="shift ctrl v" />
   </action>
   <action id="osmedile.intellij.stringmanip.SwitchCasePopup">
     <keyboard-shortcut first-keystroke="alt c" />
