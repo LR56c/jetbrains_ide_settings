@@ -273,6 +273,9 @@
   <action id="StatelessWidgetGenerator">
     <keyboard-shortcut first-keystroke="alt l" />
   </action>
+  <action id="StructuralSearchPlugin.StructuralReplaceAction">
+    <keyboard-shortcut first-keystroke="shift alt s" />
+  </action>
   <action id="SurroundWith">
     <keyboard-shortcut first-keystroke="shift alt q" />
   </action>
@@ -322,6 +325,7 @@
   <action id="codes.spidev.pubassist.action.PubAssist">
     <keyboard-shortcut first-keystroke="alt p" />
   </action>
+  <action id="context.save" />
   <action id="copilot.cycleNextInlays">
     <keyboard-shortcut first-keystroke="alt braceright" />
     <keyboard-shortcut first-keystroke="alt #10000c7" />
