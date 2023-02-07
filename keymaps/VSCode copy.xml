@@ -155,7 +155,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl f5" />
   </action>
   <action id="Git.Branches" />
-  <action id="GotoAction" />
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="shift ctrl a" />
+  </action>
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="alt f8" />
     <keyboard-shortcut first-keystroke="f8" />
@@ -238,6 +240,9 @@
   <action id="ScrollPane-scrollUp" />
   <action id="ScrollPane-unitScrollDown" />
   <action id="ScrollPane-unitScrollUp" />
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="f1" />
+  </action>
   <action id="SelectAllOccurrences">
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
