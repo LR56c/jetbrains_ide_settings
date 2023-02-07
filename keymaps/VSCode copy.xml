@@ -1,4 +1,7 @@
 <keymap version="1" name="VSCode copy" parent="VSCode">
+  <action id="$LRU">
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
   <action id="AceAction">
     <keyboard-shortcut first-keystroke="shift context_menu" />
   </action>
@@ -53,6 +56,9 @@
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
   <action id="EditSource" />
+  <action id="Editor LRU">
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
   <action id="EditorChooseLookupItemCompleteStatement">
     <keyboard-shortcut first-keystroke="shift space" />
   </action>
@@ -129,12 +135,12 @@
     <keyboard-shortcut first-keystroke="shift ctrl plus" />
   </action>
   <action id="ExternalSystem.OpenConfig" />
+  <action id="ExternalSystem.ProjectRefreshAction" />
   <action id="ExternalToolsGroup">
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
   <action id="FileChooser.NewFile" />
   <action id="FileStructurePopup">
-    <keyboard-shortcut first-keystroke="shift ctrl o" />
     <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
   <action id="Find" />
@@ -153,6 +159,7 @@
   <action id="Flutter.Toolbar.ReloadAction">
     <keyboard-shortcut first-keystroke="ctrl #100007c" />
   </action>
+  <action id="ForceOthersToFollowAction" />
   <action id="ForceRefresh">
     <keyboard-shortcut first-keystroke="shift ctrl #100007c" />
     <keyboard-shortcut first-keystroke="shift ctrl f5" />
@@ -230,7 +237,9 @@
   <action id="RecentLocations">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
-  <action id="RecentProjectListGroup" />
+  <action id="RecentProjectListGroup">
+    <keyboard-shortcut first-keystroke="ctrl #10000d1" />
+  </action>
   <action id="RefactoringMenu">
     <keyboard-shortcut first-keystroke="alt t" />
   </action>
