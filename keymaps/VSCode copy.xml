@@ -20,6 +20,7 @@
   </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt 4" />
+    <keyboard-shortcut first-keystroke="alt released 4" />
   </action>
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="shift ctrl g" />
@@ -223,6 +224,7 @@
   <action id="PrevSplitter">
     <keyboard-shortcut first-keystroke="ctrl braceleft" />
     <keyboard-shortcut first-keystroke="ctrl #10000b4" />
+    <keyboard-shortcut first-keystroke="ctrl dead_acute" />
   </action>
   <action id="PreviousOccurence">
     <keyboard-shortcut first-keystroke="alt page_down" />
@@ -250,6 +252,7 @@
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
+  <action id="ReopenClosedTab" />
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="r" />
     <keyboard-shortcut first-keystroke="shift ctrl e" />
@@ -267,6 +270,7 @@
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>
+  <action id="ServiceView.ShowServices" />
   <action id="ShowBookmarks">
     <keyboard-shortcut first-keystroke="ctrl f9" />
     <keyboard-shortcut first-keystroke="f6" />
@@ -297,11 +301,20 @@
   <action id="SwitcherIterateItems">
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
-  <action id="Terminal.CopySelectedText">
-    <keyboard-shortcut first-keystroke="ctrl insert" />
+  <action id="Terminal.MoveToEditor">
+    <keyboard-shortcut first-keystroke="shift escape" />
   </action>
-  <action id="Terminal.Paste">
-    <keyboard-shortcut first-keystroke="shift insert" />
+  <action id="Terminal.MoveToolWindowTabLeft">
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="Terminal.MoveToolWindowTabRight">
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="Terminal.OpenInTerminal">
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
+  </action>
+  <action id="Terminal.RenameSession">
+    <keyboard-shortcut first-keystroke="shift f2" />
   </action>
   <action id="TerminalNewSession" />
   <action id="ToggleBookmark">
@@ -349,6 +362,7 @@
   <action id="copilot.cyclePrevInlays">
     <keyboard-shortcut first-keystroke="alt braceleft" />
     <keyboard-shortcut first-keystroke="alt #10000b4" />
+    <keyboard-shortcut first-keystroke="alt dead_acute" />
   </action>
   <action id="copilot.requestCompletions">
     <keyboard-shortcut first-keystroke="alt period" />
