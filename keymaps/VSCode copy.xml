@@ -237,9 +237,7 @@
   <action id="RecentLocations">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
-  <action id="RecentProjectListGroup">
-    <keyboard-shortcut first-keystroke="ctrl #10000d1" />
-  </action>
+  <action id="RecentProjectListGroup" />
   <action id="RefactoringMenu">
     <keyboard-shortcut first-keystroke="alt t" />
   </action>
