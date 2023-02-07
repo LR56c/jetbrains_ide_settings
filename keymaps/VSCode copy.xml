@@ -63,7 +63,7 @@
     <keyboard-shortcut first-keystroke="shift space" />
   </action>
   <action id="EditorCompleteStatement">
-    <keyboard-shortcut first-keystroke="shift alt space" />
+    <keyboard-shortcut first-keystroke="shift ctrl space" />
   </action>
   <action id="EditorContextInfo">
     <keyboard-shortcut first-keystroke="altGraph q" />
@@ -213,6 +213,9 @@
     <mouse-shortcut keystroke="alt button1 doubleClick" />
   </action>
   <action id="OpenModuleSettings" />
+  <action id="ParameterInfo">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
   <action id="PasteMultiple">
     <keyboard-shortcut first-keystroke="shift ctrl insert" />
     <keyboard-shortcut first-keystroke="shift ctrl v" />
