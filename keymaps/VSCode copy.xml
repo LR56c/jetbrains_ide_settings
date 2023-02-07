@@ -94,10 +94,6 @@
   <action id="EditorPageUpWithSelection">
     <keyboard-shortcut first-keystroke="shift page_up" />
   </action>
-  <action id="EditorPasteSimple">
-    <keyboard-shortcut first-keystroke="shift ctrl alt v" />
-    <keyboard-shortcut first-keystroke="shift ctrl v" />
-  </action>
   <action id="EditorPreviousWordInDifferentHumpsModeWithSelection">
     <keyboard-shortcut first-keystroke="ctrl alt left" />
   </action>
@@ -203,6 +199,10 @@
     <mouse-shortcut keystroke="alt button1 doubleClick" />
   </action>
   <action id="OpenModuleSettings" />
+  <action id="PasteMultiple">
+    <keyboard-shortcut first-keystroke="shift ctrl insert" />
+    <keyboard-shortcut first-keystroke="shift ctrl v" />
+  </action>
   <action id="PrevSplitter">
     <keyboard-shortcut first-keystroke="ctrl braceleft" />
     <keyboard-shortcut first-keystroke="ctrl #10000b4" />
