@@ -14,14 +14,14 @@
     <option name="projectStateCustom" value="" />
     <option name="projectIconLargeTextCustom" value="" />
     <option name="projectIconSmallTextCustom" value="" />
-    <option name="projectTime" value="APPLICATION" />
+    <option name="projectTime" value="HIDE" />
     <option name="fileDetails" value="FILE_LANGUAGE" />
     <option name="fileDetailsCustom" value="" />
     <option name="fileState" value="NONE" />
     <option name="fileStateCustom" value="" />
     <option name="fileIconLargeTextCustom" value="" />
     <option name="fileIconSmallTextCustom" value="" />
-    <option name="fileTime" value="APPLICATION" />
+    <option name="fileTime" value="HIDE" />
     <option name="filePrefixEnabled" value="true" />
     <option name="fileHideVcsIgnored" value="false" />
     <option name="applicationType" value="IDE_EDITION" />
