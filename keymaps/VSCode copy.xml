@@ -23,12 +23,12 @@
     <keyboard-shortcut first-keystroke="alt released 4" />
   </action>
   <action id="ActivateVersionControlToolWindow">
-    <keyboard-shortcut first-keystroke="shift ctrl g" />
     <keyboard-shortcut first-keystroke="alt 9" />
   </action>
   <action id="Android.Designer.IssuePanel.CopyIssueDescription">
     <keyboard-shortcut first-keystroke="ctrl insert" />
   </action>
+  <action id="BuildSolutionAction" />
   <action id="CIDR.Lang.ObjC.IntroduceProperty" />
   <action id="ChangeSplitOrientation">
     <keyboard-shortcut first-keystroke="f3" second-keystroke="up" />
@@ -46,6 +46,7 @@
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="shift alt a" />
   </action>
+  <action id="CompileDirty" />
   <action id="Console.History.Browse" />
   <action id="Console.Jdbc.Execute">
     <keyboard-shortcut first-keystroke="alt comma" />
@@ -136,7 +137,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl plus" />
   </action>
   <action id="ExternalSystem.OpenConfig" />
-  <action id="ExternalSystem.ProjectRefreshAction" />
+  <action id="ExternalSystem.ProjectRefreshAction">
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+  </action>
   <action id="ExternalToolsGroup">
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
@@ -179,6 +182,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt released t" />
   </action>
   <action id="Graph.AlignNodes.Top" />
+  <action id="HideSideWindows" />
   <action id="HippieBackwardCompletion" />
   <action id="HippieCompletion" />
   <action id="InsertLiveTemplate">
@@ -257,6 +261,13 @@
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="r" />
     <keyboard-shortcut first-keystroke="shift ctrl e" />
   </action>
+  <action id="RunConfiguration">
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
+  <action id="RunnerActions">
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
+  </action>
+  <action id="SaveDocument" />
   <action id="ScrollPane-scrollDown" />
   <action id="ScrollPane-scrollUp" />
   <action id="ScrollPane-unitScrollDown" />
@@ -277,6 +288,10 @@
   </action>
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="context_menu" />
+  </action>
+  <action id="ShowProjectStructureSettings">
+    <keyboard-shortcut first-keystroke="shift ctrl alt s" />
+    <keyboard-shortcut first-keystroke="shift ctrl comma" />
   </action>
   <action id="Space.Review.CreateDiffComment" />
   <action id="SplitHorizontally">
@@ -376,7 +391,12 @@
     <keyboard-shortcut first-keystroke="shift f9" />
     <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleCodeSpanAction" />
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
+  <action id="org.jetbrains.plugins.notebooks.visualization.r.inlays.components.SaveOutputAction">
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
   <action id="osmedile.intellij.stringmanip.SwitchCasePopup">
     <keyboard-shortcut first-keystroke="shift ctrl c" />
   </action>
