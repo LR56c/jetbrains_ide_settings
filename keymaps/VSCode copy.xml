@@ -207,6 +207,10 @@
     <keyboard-shortcut first-keystroke="f3" second-keystroke="shift right" />
   </action>
   <action id="NavBar-navigate" />
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="alt insert" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
   <action id="NewElementMenu">
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
