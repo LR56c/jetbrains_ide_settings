@@ -20,7 +20,6 @@
   </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt 4" />
-    <keyboard-shortcut first-keystroke="alt released 4" />
   </action>
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="alt 9" />
@@ -207,6 +206,10 @@
     <keyboard-shortcut first-keystroke="f3" second-keystroke="shift right" />
   </action>
   <action id="NavBar-navigate" />
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="alt insert" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
   <action id="NewElementMenu">
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
@@ -249,7 +252,9 @@
   <action id="RecentLocations">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
-  <action id="RecentProjectListGroup" />
+  <action id="RecentProjectListGroup">
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
   <action id="RefactoringMenu">
     <keyboard-shortcut first-keystroke="alt t" />
   </action>
