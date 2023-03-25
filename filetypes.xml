@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="env-example" type="PLAIN_TEXT" />
+      <mapping pattern=".index.tsx.swp" type="TypeScript" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="md" approved="true" type="Markdown" />
