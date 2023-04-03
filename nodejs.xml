@@ -4,7 +4,7 @@
       <version-cache version="16.16.0" last-modified="1678469170187" />
     </local-interpreter>
     <local-interpreter path="D:/nodejs/node.exe">
-      <version-cache last-modified="0" />
+      <version-cache version="18.15.0" last-modified="1679763982849" />
     </local-interpreter>
     <local-interpreter path="$USER_HOME$/.nvm/versions/node/v18.14.2/bin/node" excluded="true" />
   </component>
