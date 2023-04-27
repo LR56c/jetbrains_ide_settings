@@ -1,6 +1,6 @@
 <application>
   <component name="HighlightTokenConfiguration">
-    <option name="highlightTokenMap">
+    <option name="a">
       <map>
         <entry key="COMMENT">
           <value>
@@ -8,6 +8,14 @@
               <option value="!" />
               <option value="?" />
               <option value="*" />
+            </list>
+          </value>
+        </entry>
+        <entry key="REGION_COMMENT">
+          <value>
+            <list>
+              <option value="End" />
+              <option value="Region" />
             </list>
           </value>
         </entry>
