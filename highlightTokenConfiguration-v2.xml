@@ -20,6 +20,7 @@
           <value>
             <list>
               <option value="public" />
+              <option value="abstract" />
             </list>
           </value>
         </entry>

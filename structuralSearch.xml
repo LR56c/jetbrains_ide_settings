@@ -6,29 +6,29 @@
         <myExpandedPaths>
           <array>
             <item name="" type="" />
-            <item name="JavaScript" type="cbb8eebc:String" user="JavaScript" />
+            <item name="JavaScript" type="cbb8eebc:String" />
           </array>
           <array>
             <item name="" type="" />
-            <item name="JavaScript" type="cbb8eebc:String" user="JavaScript" />
-            <item name="General" type="cbb8eebc:String" user="General" />
+            <item name="JavaScript" type="cbb8eebc:String" />
+            <item name="General" type="cbb8eebc:String" />
           </array>
           <array>
             <item name="" type="" />
-            <item name="JavaScript" type="cbb8eebc:String" user="JavaScript" />
-            <item name="Suspicious" type="cbb8eebc:String" user="Suspicious" />
+            <item name="JavaScript" type="cbb8eebc:String" />
+            <item name="Suspicious" type="cbb8eebc:String" />
           </array>
           <array>
             <item name="" type="" />
-            <item name="XML/HTML" type="cbb8eebc:String" user="XML/HTML" />
+            <item name="XML/HTML" type="cbb8eebc:String" />
           </array>
         </myExpandedPaths>
         <mySelectedPaths>
           <array>
             <item name="" type="" />
-            <item name="JavaScript" type="cbb8eebc:String" user="JavaScript" />
-            <item name="General" type="cbb8eebc:String" user="General" />
-            <item name="com.intellij.structuralsearch.plugin.ui.SearchConfiguration@d0d3fc13" type="3c4764e4:SearchConfiguration" />
+            <item name="JavaScript" type="cbb8eebc:String" />
+            <item name="General" type="cbb8eebc:String" />
+            <item name="com.intellij.structuralsearch.plugin.ui.SearchConfiguration@44f7445f" type="3c4764e4:SearchConfiguration" />
           </array>
         </mySelectedPaths>
       </TreeState>
