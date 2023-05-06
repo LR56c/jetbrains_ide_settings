@@ -35,11 +35,12 @@
   <action id="ChangeSplitOrientation">
     <keyboard-shortcut first-keystroke="f3" second-keystroke="up" />
   </action>
+  <action id="ChangesView.Move" />
+  <action id="CodeFormatGroup">
+    <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
   <action id="CollapseRegion">
-    <keyboard-shortcut first-keystroke="shift ctrl open_bracket" />
-    <keyboard-shortcut first-keystroke="shift ctrl back_quote" />
     <keyboard-shortcut first-keystroke="shift ctrl dead_grave" />
-    <keyboard-shortcut first-keystroke="shift ctrl dead_acute" />
   </action>
   <action id="CollapseSelection">
     <keyboard-shortcut first-keystroke="ctrl alt back_quote" />
@@ -87,10 +88,12 @@
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl #10000bf" />
     <keyboard-shortcut first-keystroke="ctrl inverted_exclamation_mark" />
+    <keyboard-shortcut first-keystroke="shift ctrl inverted_exclamation_mark" />
   </action>
   <action id="EditorMatchBrace">
     <keyboard-shortcut first-keystroke="alt less" />
     <keyboard-shortcut first-keystroke="multiply" />
+    <keyboard-shortcut first-keystroke="ctrl alt less" />
   </action>
   <action id="EditorMoveToPageBottomWithSelection" />
   <action id="EditorMoveToPageTopWithSelection" />
@@ -117,17 +120,10 @@
   </action>
   <action id="EditorToggleColumnMode" />
   <action id="EditorUnSelectWord">
-    <keyboard-shortcut first-keystroke="shift ctrl w" />
     <keyboard-shortcut first-keystroke="shift alt left" />
   </action>
-  <action id="EmmetNextEditPoint">
-    <keyboard-shortcut first-keystroke="shift alt close_bracket" />
-    <keyboard-shortcut first-keystroke="shift alt braceright" />
-  </action>
-  <action id="EmmetPreviousEditPoint">
-    <keyboard-shortcut first-keystroke="shift alt open_bracket" />
-    <keyboard-shortcut first-keystroke="shift alt braceleft" />
-  </action>
+  <action id="EmmetNextEditPoint" />
+  <action id="EmmetPreviousEditPoint" />
   <action id="EmojiAndSymbols">
     <keyboard-shortcut first-keystroke="alt #10000d1" />
   </action>
@@ -135,7 +131,6 @@
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
   <action id="ExpandRegion">
-    <keyboard-shortcut first-keystroke="shift ctrl close_bracket" />
     <keyboard-shortcut first-keystroke="shift ctrl plus" />
   </action>
   <action id="ExternalSystem.OpenConfig" />
@@ -156,9 +151,10 @@
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="ctrl alt q" />
   </action>
-  <action id="FindUsages">
-    <keyboard-shortcut first-keystroke="alt f7" />
-    <keyboard-shortcut first-keystroke="shift ctrl u" />
+  <action id="FindUsages" />
+  <action id="FindUsagesInFile" />
+  <action id="FindUsagesMenuGroup">
+    <keyboard-shortcut first-keystroke="alt h" />
   </action>
   <action id="Flutter.ExtractWidgetToFile" />
   <action id="Flutter.JumpToSource" />
@@ -185,11 +181,13 @@
   </action>
   <action id="Graph.AlignNodes.Top" />
   <action id="HideSideWindows" />
+  <action id="HighlightUsagesInFile" />
   <action id="HippieBackwardCompletion" />
   <action id="HippieCompletion" />
   <action id="InsertLiveTemplate">
     <keyboard-shortcut first-keystroke="alt q" />
   </action>
+  <action id="IntroduceField" />
   <action id="Markdown.Layout.PreviewOnly" />
   <action id="Markdown.Styling.CreateLink" />
   <action id="MethodDown">
@@ -232,8 +230,6 @@
     <keyboard-shortcut first-keystroke="shift ctrl v" />
   </action>
   <action id="PrevSplitter">
-    <keyboard-shortcut first-keystroke="ctrl braceleft" />
-    <keyboard-shortcut first-keystroke="ctrl #10000b4" />
     <keyboard-shortcut first-keystroke="ctrl dead_acute" />
   </action>
   <action id="PreviousOccurence">
@@ -261,9 +257,7 @@
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
-  <action id="ReformatCode">
-    <keyboard-shortcut first-keystroke="ctrl f" />
-  </action>
+  <action id="ReformatCode" />
   <action id="ReopenClosedTab" />
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="r" />
@@ -294,6 +288,7 @@
     <keyboard-shortcut first-keystroke="ctrl f9" />
     <keyboard-shortcut first-keystroke="f6" />
   </action>
+  <action id="ShowFilterPopup" />
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="context_menu" />
   </action>
@@ -301,6 +296,8 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt s" />
     <keyboard-shortcut first-keystroke="shift ctrl comma" />
   </action>
+  <action id="ShowSettingsAndFindUsages" />
+  <action id="ShowUsages" />
   <action id="Space.Review.CreateDiffComment" />
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="f3" second-keystroke="down" />
@@ -314,9 +311,6 @@
   </action>
   <action id="StatelessWidgetGenerator">
     <keyboard-shortcut first-keystroke="alt l" />
-  </action>
-  <action id="StructuralSearchPlugin.StructuralReplaceAction">
-    <keyboard-shortcut first-keystroke="shift alt s" />
   </action>
   <action id="SurroundWith">
     <keyboard-shortcut first-keystroke="shift alt q" />
@@ -347,9 +341,8 @@
   <action id="ToggleBookmarkWithMnemonic" />
   <action id="ToggleFindInSelection" />
   <action id="ToggleRenderedDocPresentation" />
-  <action id="UnselectPreviousOccurrence">
-    <keyboard-shortcut first-keystroke="ctrl u" />
-    <keyboard-shortcut first-keystroke="shift alt d" />
+  <action id="ToolWindowsGroup">
+    <keyboard-shortcut first-keystroke="alt 6" />
   </action>
   <action id="Unsplit">
     <keyboard-shortcut first-keystroke="f3" second-keystroke="enter" />
@@ -359,7 +352,9 @@
   </action>
   <action id="UpdateRunningApplication" />
   <action id="UsageFiltering.ReadAccess" />
+  <action id="UsageGrouping.FileStructure" />
   <action id="Vcs.EditSource" />
+  <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="WelcomeScreen.Plugins" />
   <action id="XDebugger.CopyValue">
     <keyboard-shortcut first-keystroke="ctrl insert" />
@@ -379,12 +374,9 @@
   </action>
   <action id="context.save" />
   <action id="copilot.cycleNextInlays">
-    <keyboard-shortcut first-keystroke="alt braceright" />
     <keyboard-shortcut first-keystroke="alt #10000c7" />
   </action>
   <action id="copilot.cyclePrevInlays">
-    <keyboard-shortcut first-keystroke="alt braceleft" />
-    <keyboard-shortcut first-keystroke="alt #10000b4" />
     <keyboard-shortcut first-keystroke="alt dead_acute" />
   </action>
   <action id="copilot.requestCompletions">
@@ -404,6 +396,9 @@
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
   <action id="org.jetbrains.plugins.notebooks.visualization.r.inlays.components.SaveOutputAction">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
+  <action id="osmedile.intellij.stringmanip.PopupChoiceAction">
+    <keyboard-shortcut first-keystroke="alt m" />
   </action>
   <action id="osmedile.intellij.stringmanip.SwitchCasePopup">
     <keyboard-shortcut first-keystroke="shift ctrl c" />
