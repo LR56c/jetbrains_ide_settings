@@ -20,6 +20,7 @@
         <entry key="vcs.code.vision" value="Default" />
       </map>
     </option>
+    <option name="enabled" value="false" />
   </component>
   <component name="DaemonCodeAnalyzerSettings">
     <option name="AUTOREPARSE_DELAY" value="0" />
