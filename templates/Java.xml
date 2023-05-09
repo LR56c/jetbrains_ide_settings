@@ -1,0 +1,13 @@
+<templateSet group="Java">
+  <template name="sc" value="Scanner input = new Scanner(System.in);" description="scanner" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="fcom" value="//&lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;$comment$&quot;&gt;&#10;//&lt;/editor-fold&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="comment" expression="" defaultValue="comment" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
