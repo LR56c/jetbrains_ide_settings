@@ -1,5 +1,6 @@
 <application>
   <component name="GeneralSettings">
+    <option name="showTipsOnStartup" value="true" />
     <option name="confirmExit" value="false" />
     <option name="confirmOpenNewProject2" value="0" />
   </component>
@@ -9,5 +10,6 @@
     <entry key="ide.text.editor.with.preview.show.floating.toolbar" value="false" />
     <entry key="external.system.auto.import.disabled" value="true" />
     <entry key="gradle.version.catalogs.dynamic.support" value="true" />
+    <entry key="editor.distraction.free.mode" value="true" />
   </component>
 </application>
