@@ -33,6 +33,23 @@
   <JSON>
     <option name="PROPERTY_ALIGNMENT" value="2" />
   </JSON>
+  <Python>
+    <option name="SPACE_WITHIN_BRACES" value="true" />
+    <option name="ALIGN_COLLECTIONS_AND_COMPREHENSIONS" value="false" />
+    <option name="ALIGN_MULTILINE_IMPORTS" value="false" />
+    <option name="NEW_LINE_AFTER_COLON" value="true" />
+    <option name="DICT_ALIGNMENT" value="2" />
+    <option name="DICT_WRAPPING" value="2" />
+    <option name="DICT_NEW_LINE_AFTER_LEFT_BRACE" value="true" />
+    <option name="DICT_NEW_LINE_BEFORE_RIGHT_BRACE" value="true" />
+    <option name="USE_CONTINUATION_INDENT_FOR_ARGUMENTS" value="true" />
+    <option name="USE_CONTINUATION_INDENT_FOR_COLLECTION_AND_COMPREHENSIONS" value="true" />
+    <option name="OPTIMIZE_IMPORTS_SORT_NAMES_IN_FROM_IMPORTS" value="true" />
+    <option name="OPTIMIZE_IMPORTS_JOIN_FROM_IMPORTS_WITH_SAME_SOURCE" value="true" />
+    <option name="OPTIMIZE_IMPORTS_CASE_INSENSITIVE_ORDER" value="true" />
+    <option name="FROM_IMPORT_PARENTHESES_FORCE_IF_MULTILINE" value="true" />
+    <option name="FROM_IMPORT_TRAILING_COMMA_IF_MULTILINE" value="true" />
+  </Python>
   <TypeScriptCodeStyleSettings version="0">
     <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false" />
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
@@ -159,6 +176,27 @@
       <option name="USE_TAB_CHARACTER" value="true" />
     </indentOptions>
   </codeStyleSettings>
+  <codeStyleSettings language="Puppet">
+    <indentOptions>
+      <option name="USE_TAB_CHARACTER" value="true" />
+      <option name="SMART_TABS" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="Python">
+    <option name="KEEP_LINE_BREAKS" value="false" />
+    <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
+    <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="false" />
+    <option name="SPACE_WITHIN_METHOD_CALL_PARENTHESES" value="true" />
+    <option name="SPACE_WITHIN_METHOD_PARENTHESES" value="true" />
+    <option name="WRAP_LONG_LINES" value="true" />
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+      <option name="TAB_SIZE" value="2" />
+      <option name="USE_TAB_CHARACTER" value="true" />
+      <option name="SMART_TABS" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="SASS">
     <indentOptions>
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
@@ -178,6 +216,15 @@
   <codeStyleSettings language="Shell Script">
     <indentOptions>
       <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="TOML">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+      <option name="TAB_SIZE" value="2" />
+      <option name="USE_TAB_CHARACTER" value="true" />
+      <option name="SMART_TABS" value="true" />
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="TypeScript">
