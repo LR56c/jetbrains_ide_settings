@@ -15,4 +15,10 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="dj" value="{% %}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Django" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
