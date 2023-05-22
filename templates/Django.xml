@@ -1,0 +1,24 @@
+<templateSet group="Django">
+  <template name="include param" value="{% include '$html$' with $param$='$value$' %}" toReformat="false" toShortenFQNames="true">
+    <variable name="html" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="param" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Django" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="include" value="{% include '$html$' %}" toReformat="false" toShortenFQNames="true">
+    <variable name="html" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Django" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="dj" value="{% %}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Django" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
