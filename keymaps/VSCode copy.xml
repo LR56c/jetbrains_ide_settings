@@ -5,6 +5,9 @@
   <action id="AceAction">
     <keyboard-shortcut first-keystroke="shift context_menu" />
   </action>
+  <action id="ActivateBookmarksToolWindow">
+    <keyboard-shortcut first-keystroke="alt 6" />
+  </action>
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
     <keyboard-shortcut first-keystroke="alt quote" />
@@ -19,7 +22,7 @@
     <keyboard-shortcut first-keystroke="alt 5" />
   </action>
   <action id="ActivateTerminalToolWindow">
-    <keyboard-shortcut first-keystroke="alt 4" />
+    <keyboard-shortcut first-keystroke="alt released 4" />
   </action>
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="alt 9" />
@@ -342,7 +345,7 @@
   <action id="ToggleFindInSelection" />
   <action id="ToggleRenderedDocPresentation" />
   <action id="ToolWindowsGroup">
-    <keyboard-shortcut first-keystroke="alt 6" />
+    <keyboard-shortcut first-keystroke="alt 2" />
   </action>
   <action id="Unsplit">
     <keyboard-shortcut first-keystroke="f3" second-keystroke="enter" />
