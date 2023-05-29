@@ -19,6 +19,9 @@
         <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Oracle/21.1.0.0</url>
       </library>
     </driver>
+    <driver id="sqlite.xerial">
+      <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.40.1" />
+    </driver>
     <driver id="81491d8a-087a-48e8-9746-0017c58175f2" based-on="oracle.base" name="Oracle [OCI]">
       <constraints>
         <constraint dbms="ORACLE" from="11.2" />
