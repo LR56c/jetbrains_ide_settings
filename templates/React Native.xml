@@ -1,0 +1,17 @@
+<templateSet group="React Native">
+  <template name="disable" value="rules:{&#10;  'prettier/prettier': 0,&#10;}," description="disable prettier" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="style" value="import { StyleSheet } from &quot;react-native&quot;;&#10;&#10;export const styles = StyleSheet.create( {&#10;  $END$&#10;} )" description="StyleSheet.create" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="class" value="className=&quot;$END$&quot;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
