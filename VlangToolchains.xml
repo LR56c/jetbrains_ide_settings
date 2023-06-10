@@ -1,0 +1,9 @@
+<application>
+  <component name="V Toolchains">
+    <option name="knownToolchains">
+      <set>
+        <option value="D:/v" />
+      </set>
+    </option>
+  </component>
+</application>
