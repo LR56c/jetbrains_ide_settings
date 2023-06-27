@@ -3,6 +3,7 @@
     <option name="knownToolchains">
       <set>
         <option value="D:/v" />
+        <option value="" />
       </set>
     </option>
   </component>
