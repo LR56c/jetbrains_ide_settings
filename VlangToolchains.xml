@@ -2,8 +2,9 @@
   <component name="V Toolchains">
     <option name="knownToolchains">
       <set>
-        <option value="D:/v" />
         <option value="" />
+        <option value="D:/v" />
+        <option value="$USER_HOME$/v" />
       </set>
     </option>
   </component>
