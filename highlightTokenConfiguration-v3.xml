@@ -1,6 +1,6 @@
 <application>
   <component name="HighlightTokenConfiguration">
-    <option name="a">
+    <highlightTokenMap>
       <map>
         <entry key="COMMENT">
           <value>
@@ -19,6 +19,11 @@
             </list>
           </value>
         </entry>
+        <entry key="REGEXP">
+          <value>
+            <list />
+          </value>
+        </entry>
         <entry key="KEYWORD">
           <value>
             <list />
@@ -33,6 +38,6 @@
           </value>
         </entry>
       </map>
-    </option>
+    </highlightTokenMap>
   </component>
 </application>
