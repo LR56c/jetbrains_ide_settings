@@ -94,9 +94,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl inverted_exclamation_mark" />
   </action>
   <action id="EditorMatchBrace">
-    <keyboard-shortcut first-keystroke="alt less" />
-    <keyboard-shortcut first-keystroke="multiply" />
-    <keyboard-shortcut first-keystroke="ctrl alt less" />
+    <keyboard-shortcut first-keystroke="ctrl less" />
   </action>
   <action id="EditorMoveToPageBottomWithSelection" />
   <action id="EditorMoveToPageTopWithSelection" />
