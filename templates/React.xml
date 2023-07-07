@@ -202,59 +202,8 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ef" value="export function $N$($p$){&#10;  $SELECTION$&#10;}" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="N" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="p" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="efc&lt;" value="export const $N$ = ($p$) =&gt; {&#10;  $SELECTION$&#10;}" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="N" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="p" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="d" value="const {$END$} = $S$" description="" toReformat="true" toShortenFQNames="true">
-    <variable name="S" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
   <template name="ro" value="return{&#10;  $SELECTION$&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="jo" value="&quot;$S1$&quot;: &quot;$S2$&quot;," description="json obj" toReformat="false" toShortenFQNames="true">
-    <variable name="S1" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="S2" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="je" value="$S1$: $S2$," description="json entry" toReformat="false" toShortenFQNames="true">
-    <variable name="S1" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="S2" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="f" value="&lt;$S1$&#10;  $S2$&#10;&gt;&#10;  $S3$&#10;&lt;/$S1$&gt;" description="format" toReformat="false" toShortenFQNames="true">
-    <variable name="S1" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="S2" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="S3" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="HTML" value="true" />
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="p" value="$S1$=&quot;$S2$&quot;" description="param" toReformat="false" toShortenFQNames="true">
-    <variable name="S1" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="S2" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
@@ -275,19 +224,6 @@
   </template>
   <template name="r" value="$reducer$: (state) =&gt; {&#10;  $SELECTION$&#10;}," description="reducer" toReformat="false" toShortenFQNames="true">
     <variable name="reducer" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="fc&lt;" value="const $N$ = ($p$) =&gt; {&#10;  $SELECTION$&#10;}" description="func const" toReformat="false" toShortenFQNames="true">
-    <variable name="N" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="p" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="calc" value="calc($S1$vh - $END$)" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="S1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
