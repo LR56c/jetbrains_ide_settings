@@ -1,0 +1,24 @@
+<templateSet group="QwikCity">
+  <template name="qonRequest" value="export const onRequest: RequestHandler = (request) =&gt; {&#10;  $END$&#10;}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qloader" value="export const $NAME$ = routeLoader$(() =&gt; {&#10;&#9;$END$&#10;})" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qaction" value="export const $NAME$ = routeAction$((data) =&gt; {&#10;&#9;$END$&#10;})" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qpage" value="import { component$ } from '@builder.io/qwik'&#10;      &#10;export default component$(() =&gt; {&#10;&#9;return(&#10;    &lt;&gt;$END$&lt;/&gt;&#10;  )&#10;})" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

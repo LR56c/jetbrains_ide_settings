@@ -1,0 +1,53 @@
+<templateSet group="Qwik">
+  <template name="qcomp$" value="export const $NAME$ = component$(() =&gt; {&#10;&#9;return (&#10;&#9;&#9;&lt;&gt;$SELECTION$&lt;/&gt;&#10;&#9;)&#10;})" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qcompprop$" value="export interface $PROPNAME$ {&#10;&#9;$PROPDEF$&#10;}&#10;export const $NAME$ = component$&lt;$PROPNAME$&gt;(({$DESTRUCT$}) =&gt; {&#10;  return (&#10;    &lt;&gt;$END$&lt;/&gt;&#10;  )&#10;})" toReformat="false" toShortenFQNames="true">
+    <variable name="PROPNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROPDEF" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
+    <variable name="DESTRUCT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qsignal" value="const $NAME$ = useSignal($TYPE$)" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qstore" value="const $NAME$ = useStore($TYPE$)" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="q$" value="$($ENTER$)" toReformat="false" toShortenFQNames="true">
+    <variable name="ENTER" expression="" defaultValue="() =&gt; {}" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qVisibleTask" value="useVisibleTask$(({ track }) =&gt; {&#10;&#9;$END$&#10;})" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qTask" value="useTask$(({ track }) =&gt; {&#10;  track(() =&gt; $END$)&#10;})" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qResource" value="const $NAME$ = useResource$(({ track, cleanup }) =&gt; {&#10;  $END$&#10;})" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
