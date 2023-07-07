@@ -34,17 +34,17 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qVisibleTask" value="useVisibleTask$(({ track }) =&gt; {&#10;&#9;$END$&#10;})" toReformat="false" toShortenFQNames="true">
+  <template name="qVisibleTask" value="useVisibleTask$(({ cleanup }) =&gt; {&#10;&#9;$END$&#10;})" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qTask" value="useTask$(({ track }) =&gt; {&#10;  track(() =&gt; $END$)&#10;})" toReformat="false" toShortenFQNames="true">
+  <template name="qTask" value="useTask$(({ track, cleanup }) =&gt; {&#10;  track(() =&gt; $END$)&#10;})" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qResource" value="const $NAME$ = useResource$(({ track, cleanup }) =&gt; {&#10;  $END$&#10;})" toReformat="false" toShortenFQNames="true">
+  <template name="qResource" value="const $NAME$ = useResource$(async ({ track, cleanup }) =&gt; {&#10;  $END$&#10;})" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -55,5 +55,35 @@
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
+  </template>
+  <template name="qnoSerialize" value="noSerialize($END$)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qContextId" value="export const $NAME$Context = createContextId&lt;$TYPE$&gt;('$ID$')" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qContextIdProp" value="export interface $PROPNAME$ {&#10;&#9;$PROPDEF$&#10;}&#10;export const $NAME$Context = createContextId&lt;$PROPNAME$&gt;('$ID$')" toReformat="false" toShortenFQNames="true">
+    <variable name="PROPNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROPDEF" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qContextProvider" value="useContextProvider($CONTEXT$, $DATA$)" toReformat="false" toShortenFQNames="true">
+    <variable name="CONTEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATA" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="qContext" value="const $NAME$ = useContext($CTX$);" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CTX" expression="" defaultValue="" alwaysStopAt="true" />
   </template>
 </templateSet>
