@@ -1,0 +1,8 @@
+<templateSet group="QwikEvents">
+  <template name="qonClick" value="onClick$={}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

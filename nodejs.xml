@@ -4,6 +4,8 @@
     <local-interpreter path="D:/nodejs/node.exe">
       <version-cache version="18.16.0" last-modified="1682549458824" />
     </local-interpreter>
-    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v18.16.0/bin/node" excluded="true" />
+    <local-interpreter path="/usr/bin/node" excluded="true" />
+    <local-interpreter path="/sbin/node" excluded="true" />
+    <local-interpreter path="/bin/node" excluded="true" />
   </component>
 </application>
