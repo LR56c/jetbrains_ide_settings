@@ -81,11 +81,4 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="t" value="&lt;$S1$&gt;$END$&lt;/&gt;" description="format" toReformat="false" toShortenFQNames="true">
-    <variable name="S1" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="HTML" value="true" />
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
 </templateSet>

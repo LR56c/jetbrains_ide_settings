@@ -1,5 +1,5 @@
 <templateSet group="QwikCity">
-  <template name="qOnRequest" value="export const on$REQUEST_TYPE$: RequestHandler&lt;$TYPE$&gt; = ($DATA$) =&gt; {&#10;&#9;$SELECTION$&#10;  return $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="qOnRequest" value="export const on$REQUEST_TYPE$: RequestHandler&lt;$TYPE$&gt; = ($DATA$) =&gt; {&#10;&#9;$SELECTION$&#10;  return $END$&#10;}" toReformat="false" toShortenFQNames="true">
     <variable name="REQUEST_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="DATA" expression="" defaultValue="" alwaysStopAt="true" />
@@ -7,45 +7,45 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qRouteLoader" value="export const use$NAME$ = routeLoader$(() =&gt; {&#10;&#9;$END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
+  <template name="qRouteLoader" value="export const use$NAME$ = routeLoader$(() =&gt; {&#10;&#9;$END$&#10;})" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qRouteAction" value="export const use$NAME$ = routeAction$((data) =&gt; {&#10;&#9;$END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
+  <template name="qRouteAction" value="export const use$NAME$ = routeAction$((data) =&gt; {&#10;&#9;$END$&#10;})" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qPage" value="import { component$ } from '@builder.io/qwik'&#10;      &#10;export default component$(() =&gt; {&#10;&#9;return(&#10;    &lt;&gt;$END$&lt;/&gt;&#10;  )&#10;})" description="" toReformat="false" toShortenFQNames="true">
+  <template name="qPage" value="import { component$ } from '@builder.io/qwik'&#10;      &#10;export default component$(() =&gt; {&#10;&#9;return(&#10;    &lt;&gt;$END$&lt;/&gt;&#10;  )&#10;})" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qLink" value="&lt;Link&gt;$END$&lt;/Link&gt;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="qLink" value="&lt;Link&gt;$END$&lt;/Link&gt;" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qDocumentHead" value="export const head: DocumentHead = {&#10;&#9;$END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="qDocumentHead" value="export const head: DocumentHead = {&#10;&#9;$END$&#10;}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="quDocumentHead" value="const head = useDocumentHead();" description="" toReformat="false" toShortenFQNames="true">
+  <template name="quDocumentHead" value="const head = useDocumentHead();" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qForm" value=" &lt;Form action={$ACTION$}&gt;&#10;  $END$&#10;&lt;/Form&gt;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="qForm" value=" &lt;Form action={$ACTION$}&gt;&#10;  $END$&#10;&lt;/Form&gt;" toReformat="false" toShortenFQNames="true">
     <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qGlobalAction" value="export const use$NAME$ = globalAction$((data) =&gt; {&#10;&#9;$END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
+  <template name="qGlobalAction" value="export const use$NAME$ = globalAction$((data) =&gt; {&#10;&#9;$END$&#10;})" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
