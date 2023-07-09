@@ -52,17 +52,17 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qcontextId" value="export const $NAME$Context = createContextId&lt;$END$&gt;('$ID$')" description="" toReformat="false" toShortenFQNames="true">
+  <template name="qcreateContextId" value="export const $NAME$Context = createContextId&lt;$END$&gt;('$ID$')" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="false" />
-    <variable name="ID" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="ID" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qcontextIdWithProp" value="export interface $PROP$ {&#10;&#9;$END$&#10;}&#10;export const $NAME$ = createContextId&lt;$PROP$&gt;('$ID$')" description="" toReformat="false" toShortenFQNames="true">
+  <template name="qcreateContextIdWithProp" value="export interface $PROP$ {&#10;&#9;$END$&#10;}&#10;export const $NAME$ = createContextId&lt;$PROP$&gt;('$ID$')" description="" toReformat="false" toShortenFQNames="true">
     <variable name="PROP" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="false" />
     <variable name="NAME" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="false" />
-    <variable name="ID" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="ID" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
