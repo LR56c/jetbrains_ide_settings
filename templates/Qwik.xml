@@ -131,13 +131,37 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qonclickTarget" value="onClick$={(event, currentTarget) =&gt; {&#10;&#9;$END$             &#10;}}" toReformat="false" toShortenFQNames="true">
+  <template name="qonClickTarget" value="onClick$={(event, currentTarget) =&gt; {&#10;&#9;$END$             &#10;}}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
   <template name="qpropFunction" value="PropFunction&lt;() =&gt; $END$&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qonClick" value="onClick$={}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qonDocument" value="useOnDocument('$EVENT$',&#10;  $((event) =&gt; {&#10;    $END$&#10;  })&#10;)" toReformat="false" toShortenFQNames="true">
+    <variable name="EVENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qon" value="useOn('$EVENT$',&#10;  $((event) =&gt; {&#10;    $END$&#10;  })&#10;)" toReformat="false" toShortenFQNames="true">
+    <variable name="EVENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qonWindow" value="useOnWindow('$EVENT$',&#10;  $((event) =&gt; {&#10;    $END$&#10;  })&#10;)" toReformat="false" toShortenFQNames="true">
+    <variable name="EVENT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
