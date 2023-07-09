@@ -1,5 +1,5 @@
 <templateSet group="MyTS">
-  <template name="-constArrow" value="export const $N$ = ($p$) =&gt; {&#10;  $SELECTION$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="-arrowFuncExport" value="export const $N$ = ($p$) =&gt; {&#10;  $SELECTION$&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="N" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="p" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -39,7 +39,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="-normalArrow" value="const $N$ = ($p$) =&gt; {&#10;  $SELECTION$&#10;}" description="func const" toReformat="false" toShortenFQNames="true">
+  <template name="-arrowFunc" value="const $N$ = ($p$) =&gt; {&#10;  $SELECTION$&#10;}" description="func const" toReformat="false" toShortenFQNames="true">
     <variable name="N" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="p" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
