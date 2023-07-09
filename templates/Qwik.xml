@@ -14,14 +14,14 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qSignal" value="const $NAME$ = useSignal($TYPE$)" description="" toReformat="false" toShortenFQNames="true">
+  <template name="quseSignal" value="const $NAME$ = useSignal($TYPE$)" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qStore" value="const $NAME$ = useStore($TYPE$)" description="" toReformat="false" toShortenFQNames="true">
+  <template name="quseStore" value="const $NAME$ = useStore($TYPE$)" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -34,23 +34,23 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qVisibleTask" value="useVisibleTask$(({ track, cleanup }) =&gt; {&#10;&#9;$END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
+  <template name="quseVisibleTask" value="useVisibleTask$(({ track, cleanup }) =&gt; {&#10;&#9;$END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qTask" value="useTask$(({ track, cleanup }) =&gt; {&#10;  track(() =&gt; $END$)&#10;})" description="" toReformat="false" toShortenFQNames="true">
+  <template name="quseTask" value="useTask$(({ track, cleanup }) =&gt; {&#10;  track(() =&gt; $END$)&#10;})" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qResource" value="const $NAME$ = useResource$(async ({ track, cleanup }) =&gt; {&#10;  $END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
+  <template name="quseResource" value="const $NAME$ = useResource$(async ({ track, cleanup }) =&gt; {&#10;  $END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qComputed" value="const $NAME$ = useComputed$(() =&gt; {&#10;  return $END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
+  <template name="quseComputed" value="const $NAME$ = useComputed$(() =&gt; {&#10;  return $END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -69,22 +69,27 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qContextIdProp" value="export interface $PROPNAME$ {&#10;&#9;$PROPDEF$&#10;}&#10;export const $NAME$Context = createContextId&lt;$PROPNAME$&gt;('$ID$')" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="PROPNAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="PROPDEF" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="qContextIdProp" value="export interface $PROP$ {&#10;&#9;$END$&#10;}&#10;export const $NAME$ = createContextId&lt;$PROP$&gt;('$ID$')" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="PROP" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="false" />
+    <variable name="NAME" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="false" />
+    <variable name="ID" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qContextProvider" value="useContextProvider($CONTEXT$, $DATA$)" description="" toReformat="false" toShortenFQNames="true">
+  <template name="quseContextProvider" value="useContextProvider($CONTEXT$, $DATA$)" description="" toReformat="false" toShortenFQNames="true">
     <variable name="CONTEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="DATA" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
   </template>
-  <template name="qContext" value="const $NAME$ = useContext($CTX$);" description="" toReformat="false" toShortenFQNames="true">
+  <template name="quseContext" value="const $NAME$ = useContext($CTX$);" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CTX" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
   </template>
   <template name="qNamedSlot" value="&lt;Slot name=&quot;$NAME$&quot;/&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
@@ -98,29 +103,29 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qStylesScoped" value="useStylesScoped$($NAME$);" description="" toReformat="false" toShortenFQNames="true">
+  <template name="quseStylesScoped" value="useStylesScoped$($NAME$);" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="styles" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qStyles" value="useStyles$($NAME$);" description="" toReformat="false" toShortenFQNames="true">
+  <template name="quseStyles" value="useStyles$($NAME$);" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="styles" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qContent" value="const { menu } = useContent()" description="" toReformat="false" toShortenFQNames="true">
+  <template name="quseContent" value="const { menu } = useContent()" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qLocation" value="const location = useLocation()" description="" toReformat="false" toShortenFQNames="true">
+  <template name="quseLocation" value="const location = useLocation()" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qNavigate" value="const nav = useNavigate()" description="" toReformat="false" toShortenFQNames="true">
+  <template name="quseNavigate" value="const nav = useNavigate()" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
