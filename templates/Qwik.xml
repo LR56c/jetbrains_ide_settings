@@ -5,7 +5,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qcomponentWithProp" value="export interface $PROP$ {&#10;&#9;$END$&#10;}&#10;export const $NAME$ = component$&lt;$PROP$&gt;(({&#10;}) =&gt; {&#10;  return (&#10;    &lt;&gt;&#10;    &#10;    &lt;/&gt;&#10;  )&#10;})" description="" toReformat="false" toShortenFQNames="true">
+  <template name="qcomponentNamedWithProp" value="export interface $PROP$ {&#10;&#9;$END$&#10;}&#10;export const $NAME$ = component$&lt;$PROP$&gt;(({&#10;}) =&gt; {&#10;  return (&#10;    &lt;&gt;&#10;    &#10;    &lt;/&gt;&#10;  )&#10;})" description="" toReformat="false" toShortenFQNames="true">
     <variable name="PROP" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="false" />
     <variable name="NAME" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="false" />
     <context>
@@ -115,6 +115,12 @@
     </context>
   </template>
   <template name="qcomponent" value="export default component$(() =&gt; {&#10;&#9;return (&#10;&#9;&#9;&lt;&gt;$END$&lt;/&gt;&#10;&#9;)&#10;})" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qhook" value="export const $NAME$ = () =&gt; {&#10;  $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="camelCase(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
