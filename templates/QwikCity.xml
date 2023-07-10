@@ -13,7 +13,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qrouteAction" value="export const use$NAME$ = routeAction$((data) =&gt; {&#10;&#9;$END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
+  <template name="qrouteAction" value="export const use$NAME$ = routeAction$((data, event) =&gt; {&#10;&#9;$END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
