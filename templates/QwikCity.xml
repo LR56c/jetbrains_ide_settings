@@ -6,13 +6,13 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qrouteLoader" value="export const use$NAME$ = routeLoader$(async (request) =&gt; {&#10;&#9;$END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
+  <template name="qloaderRoute" value="export const use$NAME$ = routeLoader$(async (request) =&gt; {&#10;&#9;$END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qrouteAction" value="export const use$NAME$ = routeAction$(async (data, request) =&gt; {&#10;&#9;$END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
+  <template name="qactionRoute" value="export const use$NAME$ = routeAction$(async (data, request) =&gt; {&#10;&#9;$END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -45,7 +45,7 @@
     </context>
   </template>
   <template name="qglobalAction" value="export const use$NAME$ = globalAction$((data) =&gt; {&#10;&#9;$END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
