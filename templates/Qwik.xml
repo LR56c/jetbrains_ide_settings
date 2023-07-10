@@ -126,20 +126,8 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qonClickTarget" value="onClick$={(event, currentTarget) =&gt; {&#10;&#9;$END$             &#10;}}" description="" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="HTML" value="true" />
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
   <template name="qpropFunction" value="PropFunction&lt;() =&gt; $END$&gt;" description="" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="qonClick" value="onClick$={}" description="" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
@@ -157,6 +145,11 @@
   </template>
   <template name="qonWindow" value="useOnWindow('$EVENT$',&#10;  $((event) =&gt; {&#10;    $END$&#10;  })&#10;)" description="" toReformat="false" toShortenFQNames="true">
     <variable name="EVENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qbind" value="bind:value={$END$}" description="only signals" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
