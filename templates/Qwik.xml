@@ -12,12 +12,14 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qsignal" value="const $END$ = useSignal()" description="" toReformat="false" toShortenFQNames="true">
+  <template name="qsignal" value="const $END$ = useSignal($TYPE$)" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qstore" value="const $END$ = useStore()" description="" toReformat="false" toShortenFQNames="true">
+  <template name="qstore" value="const $END$ = useStore&lt;$TYPE$&gt;()" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -114,13 +116,14 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qhook" value="export const $NAME$ = () =&gt; {&#10;  $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="qhook" value="export const $NAME$ = ($TYPE$) =&gt; {&#10;  $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="camelCase(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="false" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qpreventdefault" value="preventdefault:click" description="" toReformat="false" toShortenFQNames="true">
+  <template name="qpreventdefault" value="preventdefault:click$END$" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />

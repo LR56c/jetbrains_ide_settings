@@ -1,5 +1,5 @@
 <templateSet group="QwikEvents">
-  <template name="qonClick" value="onClick$={}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="qonClick" value="onClick$={$END$}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
@@ -11,13 +11,19 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qonInput" value="onInput$={}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="qonInput" value="onInput$={$END$}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qonSubmit" value="onSubmit$={}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="qonSubmit" value="onSubmit$={$END$}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qonSubmitCompleted" value="onSubmitCompleted$={$END$}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
