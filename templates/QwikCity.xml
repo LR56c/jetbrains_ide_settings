@@ -1,0 +1,58 @@
+<templateSet group="QwikCity">
+  <template name="qrequest" value="export const on$REQUEST_TYPE$: RequestHandler&lt;$TYPE$&gt; = async ({&#10;}) =&gt; {&#10;  return $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="REQUEST_TYPE" expression="enum(&quot;Request&quot;, &quot;Get&quot;, &quot;Post&quot;, &quot;Put&quot;, &quot;Patch&quot;, &quot;Delete&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qloaderRoute" value="export const use$NAME$ = routeLoader$(async (request) =&gt; {&#10;&#9;$END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qactionRoute" value="export const use$NAME$ = routeAction$(async (data, request) =&gt; {&#10;&#9;$END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qpage" value="import { component$ } from '@builder.io/qwik'&#10;      &#10;export default component$&lt;$TYPE$&gt;(() =&gt; {&#10;&#9;return(&#10;    &lt;&gt;$END$&lt;/&gt;&#10;  )&#10;})" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qlink" value="&lt;Link&gt;&#10;&#9;$END$&#10;&lt;/Link&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qdocumentHeadFunc" value="export const head: DocumentHead = {&#10;&#9;$END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qdocumentHead" value="const head = useDocumentHead();" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qform" value="&lt;Form&gt;&#10;&#9;$END$&#10;&lt;/Form&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qglobalAction" value="export const use$NAME$ = globalAction$((data) =&gt; {&#10;&#9;$END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qzod" value="zod$({&#10;&#9;$END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

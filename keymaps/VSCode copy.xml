@@ -8,24 +8,26 @@
   <action id="ActivateBookmarksToolWindow">
     <keyboard-shortcut first-keystroke="alt 6" />
   </action>
-  <action id="ActivateDebugToolWindow">
-    <keyboard-shortcut first-keystroke="shift ctrl d" />
-    <keyboard-shortcut first-keystroke="alt quote" />
+  <action id="ActivateCommitToolWindow">
+    <keyboard-shortcut first-keystroke="alt 4" />
   </action>
-  <action id="ActivateMessagesToolWindow">
+  <action id="ActivateDebugToolWindow">
+    <keyboard-shortcut first-keystroke="alt 0" />
+  </action>
+  <action id="ActivateFindToolWindow">
     <keyboard-shortcut first-keystroke="alt 9" />
   </action>
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="alt 1" />
   </action>
   <action id="ActivateRunToolWindow">
-    <keyboard-shortcut first-keystroke="alt 5" />
+    <keyboard-shortcut first-keystroke="alt 3" />
   </action>
   <action id="ActivateTerminalToolWindow">
-    <keyboard-shortcut first-keystroke="alt released 4" />
+    <keyboard-shortcut first-keystroke="alt 2" />
   </action>
   <action id="ActivateVersionControlToolWindow">
-    <keyboard-shortcut first-keystroke="alt 9" />
+    <keyboard-shortcut first-keystroke="alt 5" />
   </action>
   <action id="Android.Designer.IssuePanel.CopyIssueDescription">
     <keyboard-shortcut first-keystroke="ctrl insert" />
@@ -74,7 +76,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl space" />
   </action>
   <action id="EditorContextInfo">
-    <keyboard-shortcut first-keystroke="altGraph q" />
+    <keyboard-shortcut first-keystroke="shift alt g" />
   </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
@@ -94,9 +96,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl inverted_exclamation_mark" />
   </action>
   <action id="EditorMatchBrace">
-    <keyboard-shortcut first-keystroke="alt less" />
-    <keyboard-shortcut first-keystroke="multiply" />
-    <keyboard-shortcut first-keystroke="ctrl alt less" />
+    <keyboard-shortcut first-keystroke="ctrl less" />
   </action>
   <action id="EditorMoveToPageBottomWithSelection" />
   <action id="EditorMoveToPageTopWithSelection" />
@@ -218,8 +218,7 @@
     <keyboard-shortcut first-keystroke="alt page_up" />
   </action>
   <action id="NextSplitter">
-    <keyboard-shortcut first-keystroke="ctrl braceright" />
-    <keyboard-shortcut first-keystroke="ctrl #10000c7" />
+    <keyboard-shortcut first-keystroke="shift ctrl #10000c7" />
   </action>
   <action id="OpenInRightSplit">
     <mouse-shortcut keystroke="alt button1 doubleClick" />
@@ -233,7 +232,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl v" />
   </action>
   <action id="PrevSplitter">
-    <keyboard-shortcut first-keystroke="ctrl dead_acute" />
+    <keyboard-shortcut first-keystroke="ctrl #10000c7" />
   </action>
   <action id="PreviousOccurence">
     <keyboard-shortcut first-keystroke="alt page_down" />
@@ -345,7 +344,7 @@
   <action id="ToggleFindInSelection" />
   <action id="ToggleRenderedDocPresentation" />
   <action id="ToolWindowsGroup">
-    <keyboard-shortcut first-keystroke="alt 2" />
+    <keyboard-shortcut first-keystroke="alt escape" />
   </action>
   <action id="Unsplit">
     <keyboard-shortcut first-keystroke="f3" second-keystroke="enter" />
@@ -389,6 +388,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl f6" />
   </action>
   <action id="hg4idea.QFold" />
+  <action id="hg4idea.QGotoFromPatches" />
   <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.EditorAndPreviewLayoutChangeAction">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="v" />
     <keyboard-shortcut first-keystroke="shift f9" />
