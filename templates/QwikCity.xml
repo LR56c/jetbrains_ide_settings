@@ -56,16 +56,4 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qmod" value="const [$END$,] = useForm&lt;$TYPE$&gt;({&#10;    loader: $LOADER$,&#10;})" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="LOADER" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="qmodDestruct" value="{ Form, Field, FieldArray }" description="" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
 </templateSet>
