@@ -6,13 +6,14 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qloaderRoute" value="export const use$NAME$ = routeLoader$(async (request) =&gt; {&#10;&#9;$END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
+  <template name="qloaderRoute" value="export const use$NAME$Loader = routeLoader$&lt;$TYPE$&gt;(async (request) =&gt; {&#10;&#9;$END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="qactionRoute" value="export const use$NAME$ = routeAction$(async (data, request) =&gt; {&#10;&#9;$END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
+  <template name="qactionRoute" value="export const use$NAME$Action = routeAction$(async (data, request) =&gt; {&#10;&#9;$END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
