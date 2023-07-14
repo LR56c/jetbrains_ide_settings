@@ -168,6 +168,10 @@
     <keyboard-shortcut first-keystroke="ctrl #100007c" />
     <keyboard-shortcut first-keystroke="ctrl alt 1" />
   </action>
+  <action id="Flutter.Toolbar.RestartAction">
+    <keyboard-shortcut first-keystroke="shift ctrl back_slash" />
+    <keyboard-shortcut first-keystroke="ctrl alt 2" />
+  </action>
   <action id="ForceOthersToFollowAction" />
   <action id="ForceRefresh">
     <keyboard-shortcut first-keystroke="shift ctrl #100007c" />
