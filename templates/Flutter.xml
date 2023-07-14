@@ -163,39 +163,12 @@
       <option name="FLUTTER" value="true" />
     </context>
   </template>
-  <template name="fview" value="import 'package:flutter/material.dart';&#10;class $name$View extends StatelessWidget {&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Scaffold(&#10;      body: Center(&#10;        child: Text('$name$View'),&#10;      ),&#10;    );&#10;  }&#10;}" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="FLUTTER" value="true" />
-    </context>
-  </template>
-  <template name="fpage" value="import 'package:flutter/material.dart';&#10;&#10;class $name$Page extends StatelessWidget {&#10;  const $name$Page({Key key}) : super(key: key);&#10;&#10;  /// $name$Page [routeName]&#10;  static const routeName = '$name$Page';&#10;&#10;  ///Router for $name$Page&#10;  static Route route() {&#10;    return MaterialPageRoute&lt;void&gt;(builder: (_) =&gt; const $name$Page());&#10;  }&#10;&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Scaffold(&#10;      appBar: AppBar(&#10;        title: const Text('$name$'),&#10;      ),&#10;    );&#10;  }&#10;}" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="FLUTTER" value="true" />
-    </context>
-  </template>
-  <template name="imptime" value="import 'package:time/time.dart';" description="" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="FLUTTER" value="true" />
-    </context>
-  </template>
   <template name="fmedqf" value="final size = MediaQuery.of(context).size;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="FLUTTER" value="true" />
     </context>
   </template>
   <template name="fmedq" value="MediaQuery.of(context).size;" description="" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="FLUTTER" value="true" />
-    </context>
-  </template>
-  <template name="st" value="setState(() {});" description="" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="FLUTTER" value="true" />
-    </context>
-  </template>
-  <template name="routeName" value="static String get routeName =&gt; '$END$';&#10;static String get routeLocation =&gt; '/$routeName';" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="FLUTTER" value="true" />
     </context>
