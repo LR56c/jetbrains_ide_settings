@@ -35,6 +35,9 @@
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="shift alt 1" />
   </action>
+  <action id="AtomFileIcons.OldToolbar">
+    <keyboard-shortcut first-keystroke="ctrl alt o" />
+  </action>
   <action id="BuildSolutionAction" />
   <action id="CIDR.Lang.ObjC.IntroduceProperty" />
   <action id="ChangeSplitOrientation">
@@ -46,7 +49,6 @@
   </action>
   <action id="CollapseRegion">
     <keyboard-shortcut first-keystroke="shift ctrl dead_grave" />
-    <keyboard-shortcut first-keystroke="ctrl alt dead_acute" />
   </action>
   <action id="CollapseSelection">
     <keyboard-shortcut first-keystroke="ctrl alt back_quote" />
@@ -136,7 +138,6 @@
   </action>
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="shift ctrl plus" />
-    <keyboard-shortcut first-keystroke="ctrl alt #10000c7" />
   </action>
   <action id="ExternalSystem.OpenConfig" />
   <action id="ExternalSystem.ProjectRefreshAction">
@@ -165,6 +166,11 @@
   <action id="Flutter.JumpToSource" />
   <action id="Flutter.Toolbar.ReloadAction">
     <keyboard-shortcut first-keystroke="ctrl #100007c" />
+    <keyboard-shortcut first-keystroke="ctrl alt 1" />
+  </action>
+  <action id="Flutter.Toolbar.RestartAction">
+    <keyboard-shortcut first-keystroke="shift ctrl back_slash" />
+    <keyboard-shortcut first-keystroke="ctrl alt 2" />
   </action>
   <action id="ForceOthersToFollowAction" />
   <action id="ForceRefresh">
@@ -358,6 +364,7 @@
   <action id="UpdateRunningApplication" />
   <action id="UsageFiltering.ReadAccess" />
   <action id="UsageGrouping.FileStructure" />
+  <action id="UsageGrouping.FlattenModules" />
   <action id="Vcs.EditSource" />
   <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="WelcomeScreen.Plugins" />
