@@ -46,6 +46,7 @@
   </action>
   <action id="CollapseRegion">
     <keyboard-shortcut first-keystroke="shift ctrl dead_grave" />
+    <keyboard-shortcut first-keystroke="ctrl alt dead_acute" />
   </action>
   <action id="CollapseSelection">
     <keyboard-shortcut first-keystroke="ctrl alt back_quote" />
@@ -135,6 +136,7 @@
   </action>
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="shift ctrl plus" />
+    <keyboard-shortcut first-keystroke="ctrl alt #10000c7" />
   </action>
   <action id="ExternalSystem.OpenConfig" />
   <action id="ExternalSystem.ProjectRefreshAction">
@@ -189,6 +191,7 @@
   <action id="HippieCompletion" />
   <action id="InsertLiveTemplate">
     <keyboard-shortcut first-keystroke="alt q" />
+    <keyboard-shortcut first-keystroke="shift ctrl q" />
   </action>
   <action id="IntroduceField" />
   <action id="Markdown.Layout.PreviewOnly" />
