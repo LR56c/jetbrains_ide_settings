@@ -166,6 +166,7 @@
   <action id="Flutter.JumpToSource" />
   <action id="Flutter.Toolbar.ReloadAction">
     <keyboard-shortcut first-keystroke="ctrl #100007c" />
+    <keyboard-shortcut first-keystroke="ctrl alt 1" />
   </action>
   <action id="ForceOthersToFollowAction" />
   <action id="ForceRefresh">
