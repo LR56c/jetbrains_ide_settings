@@ -1,0 +1,27 @@
+<application>
+  <component name="Atom Icon Selections Config">
+    <option name="selectedFileAssociations">
+      <SelectedAssociations>
+        <option name="ownAssociations">
+          <map>
+            <entry key="JSX">
+              <value>
+                <RegexAssociation>
+                  <option name="matcher" value=".*\.(jsx|tsx)$" />
+                  <option name="pattern" value=".*\.(jsx|tsx)$" />
+                  <option name="touched" value="true" />
+                  <option name="name" value="JSX" />
+                  <option name="icon" value="$USER_HOME$/Downloads/qwik.svg" />
+                  <option name="priority" value="10" />
+                  <option name="iconColor" value="61DAFB" />
+                  <option name="folderColor" />
+                  <option name="folderIconColor" />
+                </RegexAssociation>
+              </value>
+            </entry>
+          </map>
+        </option>
+      </SelectedAssociations>
+    </option>
+  </component>
+</application>
