@@ -11,9 +11,38 @@
                   <option name="pattern" value=".*\.(jsx|tsx)$" />
                   <option name="touched" value="true" />
                   <option name="name" value="JSX" />
-                  <option name="icon" value="$USER_HOME$/Downloads/qwik.svg" />
+                  <option name="icon" value="$USER_HOME$/Downloads/qwik-16.svg" />
                   <option name="priority" value="10" />
                   <option name="iconColor" value="61DAFB" />
+                  <option name="folderColor" />
+                  <option name="folderIconColor" />
+                </RegexAssociation>
+              </value>
+            </entry>
+            <entry key="Routes">
+              <value>
+                <RegexAssociation>
+                  <option name="matcher" value="(routing|routes)\.([cm]?jsx?|tsx?)$" />
+                  <option name="pattern" value="(routing|routes)\.([cm]?jsx?|tsx?)$" />
+                  <option name="touched" value="true" />
+                  <option name="name" value="Routes" />
+                  <option name="icon" value="/icons/files/routes.svg" />
+                  <option name="iconColor" value="43A047" />
+                  <option name="folderColor" />
+                  <option name="folderIconColor" />
+                </RegexAssociation>
+              </value>
+            </entry>
+            <entry key="Routes Files">
+              <value>
+                <RegexAssociation>
+                  <option name="matcher" value=".*/(routing|routes)/[^/]*\.([cm]?jsx?|tsx?)$" />
+                  <option name="pattern" value=".*/(routing|routes)/[^/]*\.([cm]?jsx?|tsx?)$" />
+                  <option name="touched" value="true" />
+                  <option name="name" value="Routes Files" />
+                  <option name="icon" value="$USER_HOME$/Downloads/qwik-16.svg" />
+                  <option name="priority" value="50" />
+                  <option name="iconColor" value="43A047" />
                   <option name="folderColor" />
                   <option name="folderIconColor" />
                 </RegexAssociation>
