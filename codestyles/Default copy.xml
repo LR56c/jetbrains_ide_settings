@@ -8,6 +8,19 @@
     </value>
   </option>
   <option name="RIGHT_MARGIN" value="80" />
+  <GoCodeStyleSettings>
+    <option name="ADD_PARENTHESES_FOR_SINGLE_IMPORT" value="true" />
+    <option name="REMOVE_REDUNDANT_IMPORT_ALIASES" value="true" />
+    <option name="ADD_LEADING_SPACE_TO_COMMENTS" value="true" />
+    <option name="MOVE_ALL_IMPORTS_IN_ONE_DECLARATION" value="true" />
+    <option name="MOVE_ALL_STDLIB_IMPORTS_IN_ONE_GROUP" value="true" />
+    <option name="GROUP_STDLIB_IMPORTS" value="true" />
+    <option name="LOCAL_PACKAGE_PREFIXES" />
+    <option name="WRAP_FUNC_PARAMS_NEWLINE_AFTER_LPAREN" value="false" />
+    <option name="WRAP_FUNC_PARAMS_NEWLINE_BEFORE_RPAREN" value="false" />
+    <option name="WRAP_FUNC_RESULT_NEWLINE_AFTER_LPAREN" value="false" />
+    <option name="WRAP_FUNC_RESULT_NEWLINE_BEFORE_RPAREN" value="false" />
+  </GoCodeStyleSettings>
   <HTMLCodeStyleSettings>
     <option name="HTML_ATTRIBUTE_WRAP" value="2" />
     <option name="HTML_ALIGN_ATTRIBUTES" value="false" />
@@ -447,6 +460,16 @@
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
       <option name="TAB_SIZE" value="2" />
       <option name="USE_TAB_CHARACTER" value="true" />
+      <option name="SMART_TABS" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="go">
+    <option name="CALL_PARAMETERS_LPAREN_ON_NEXT_LINE" value="false" />
+    <option name="CALL_PARAMETERS_RPAREN_ON_NEXT_LINE" value="false" />
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+      <option name="TAB_SIZE" value="2" />
       <option name="SMART_TABS" value="true" />
     </indentOptions>
   </codeStyleSettings>
