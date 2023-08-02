@@ -3,7 +3,7 @@
     <property name="created">2022-01-25T21:39:48</property>
     <property name="ide">AndroidStudio</property>
     <property name="ideVersion">2020.3.1.26</property>
-    <property name="modified">2023-02-07T18:42:18</property>
+    <property name="modified">2023-08-02T13:15:18</property>
     <property name="originalScheme">monokai_rider copy</property>
   </metaInfo>
   <colors>
@@ -375,12 +375,12 @@
     </option>
     <option name="GO_BUILTIN_FUNCTION">
       <value>
-        <option name="FOREGROUND" value="ac56d9" />
+        <option name="FOREGROUND" value="fc9867" />
       </value>
     </option>
     <option name="GO_BUILTIN_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="ac56d9" />
+        <option name="FOREGROUND" value="fc9867" />
       </value>
     </option>
     <option name="GO_BUILTIN_TYPE_REFERENCE">
@@ -391,6 +391,28 @@
     <option name="GO_BUILTIN_VARIABLE">
       <value>
         <option name="FOREGROUND" value="ec5c7f" />
+      </value>
+    </option>
+    <option name="GO_COMMENT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="78dce8" />
+        <option name="EFFECT_COLOR" value="a9dc76" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="GO_COMMENT_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="78dce8" />
+      </value>
+    </option>
+    <option name="GO_EXPORTED_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="fc9867" />
+      </value>
+    </option>
+    <option name="GO_EXPORTED_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="fc9867" />
       </value>
     </option>
     <option name="GO_EXPORTED_INTERFACE_REFERENCE">
@@ -418,6 +440,11 @@
         <option name="FOREGROUND" value="57a64a" />
       </value>
     </option>
+    <option name="GO_LOCAL_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="fc9867" />
+      </value>
+    </option>
     <option name="GO_LOCAL_INTERFACE_REFERENCE">
       <value>
         <option name="FOREGROUND" value="95ec41" />
@@ -430,12 +457,12 @@
     </option>
     <option name="GO_METHOD_RECEIVER">
       <value>
-        <option name="FOREGROUND" value="888d4b" />
+        <option name="FOREGROUND" value="78dce8" />
       </value>
     </option>
     <option name="GO_NUMBER">
       <value>
-        <option name="FOREGROUND" value="ab9df2" />
+        <option name="FOREGROUND" value="fd3895" />
       </value>
     </option>
     <option name="GO_PACKAGE">
@@ -449,7 +476,9 @@
       </value>
     </option>
     <option name="GO_PACKAGE_EXPORTED_VARIABLE">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="a9dc76" />
+      </value>
     </option>
     <option name="GO_PACKAGE_LOCAL_STRUCT">
       <value>
@@ -457,16 +486,43 @@
       </value>
     </option>
     <option name="GO_PACKAGE_LOCAL_VARIABLE">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="a9dc76" />
+      </value>
+    </option>
+    <option name="GO_PACKAGE_LOCAL_VARIABLE_CALL">
+      <value>
+        <option name="FOREGROUND" value="fc9867" />
+      </value>
     </option>
     <option name="GO_STRUCT_EXPORTED_MEMBER">
       <value>
         <option name="FOREGROUND" value="a9dc76" />
       </value>
     </option>
+    <option name="GO_STRUCT_EXPORTED_MEMBER_CALL">
+      <value>
+        <option name="FOREGROUND" value="fc9867" />
+      </value>
+    </option>
     <option name="GO_STRUCT_LOCAL_MEMBER">
       <value>
         <option name="FOREGROUND" value="a9dc76" />
+      </value>
+    </option>
+    <option name="GO_STRUCT_LOCAL_MEMBER_CALL">
+      <value>
+        <option name="FOREGROUND" value="fc9867" />
+      </value>
+    </option>
+    <option name="GO_TYPE_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="fd3895" />
+      </value>
+    </option>
+    <option name="GO_TYPE_SPECIFICATION">
+      <value>
+        <option name="FOREGROUND" value="fd3895" />
       </value>
     </option>
     <option name="GO_VALID_STRING_ESCAPE">
