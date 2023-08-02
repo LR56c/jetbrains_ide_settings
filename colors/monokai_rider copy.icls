@@ -3,7 +3,7 @@
     <property name="created">2022-01-25T21:39:48</property>
     <property name="ide">AndroidStudio</property>
     <property name="ideVersion">2020.3.1.26</property>
-    <property name="modified">2023-08-02T13:15:18</property>
+    <property name="modified">2023-08-02T13:16:39</property>
     <property name="originalScheme">monokai_rider copy</property>
   </metaInfo>
   <colors>
@@ -462,7 +462,7 @@
     </option>
     <option name="GO_NUMBER">
       <value>
-        <option name="FOREGROUND" value="fd3895" />
+        <option name="FOREGROUND" value="ab9df2" />
       </value>
     </option>
     <option name="GO_PACKAGE">
