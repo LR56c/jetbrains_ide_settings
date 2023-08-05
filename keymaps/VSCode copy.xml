@@ -63,6 +63,7 @@
     <keyboard-shortcut first-keystroke="alt comma" />
   </action>
   <action id="Debugger.EditFrameSource" />
+  <action id="Diff.ApplyLeftSide" />
   <action id="DomCollectionControl.Edit" />
   <action id="DomElementsTreeView.GotoDomElementDeclarationAction" />
   <action id="DummyText">
@@ -329,6 +330,9 @@
   <action id="SwitcherIterateItems">
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
+  <action id="SynchronizeCurrentFile">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
+  </action>
   <action id="Terminal.MoveToEditor">
     <keyboard-shortcut first-keystroke="shift escape" />
   </action>
@@ -337,6 +341,10 @@
   </action>
   <action id="Terminal.MoveToolWindowTabRight">
     <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="Terminal.NewTab">
+    <keyboard-shortcut first-keystroke="shift ctrl back_quote" />
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
   </action>
   <action id="Terminal.OpenInTerminal">
     <keyboard-shortcut first-keystroke="shift ctrl n" />
