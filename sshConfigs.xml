@@ -1,0 +1,7 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="129.151.106.126" id="85b7e53c-9af0-4d08-ac7b-67d570d50d3a" keyPath="/run/media/lr56c/WD_P1/dev/keys/oci/i1/ssh-key-2023-05-24.key" port="22" nameFormat="DESCRIPTIVE" username="ubuntu" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</application>
