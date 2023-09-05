@@ -1,0 +1,20 @@
+<application>
+  <component name="StringManipulationState">
+    <option name="lastActionModel">
+      <UniversalActionModel>
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.swap.ShiftQuoteAction" />
+        <option name="description" value="Shift all double quote, single quote, backtick to the next type (or wrap if none present)" />
+        <option name="textWithMnemonic" value="Wrap or Shift Between &quot; and ' and `" />
+      </UniversalActionModel>
+    </option>
+    <option name="sortSettingsMap">
+      <map>
+        <entry key="SortAction">
+          <value>
+            <SortSettings />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>

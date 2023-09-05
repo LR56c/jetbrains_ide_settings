@@ -1,0 +1,12 @@
+<templateSet group="JavaScript">
+  <template name="logm" value="console.log(`${}`);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="logo" value="console.log({$END$})" description="log object" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
