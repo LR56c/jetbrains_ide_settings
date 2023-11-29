@@ -12,6 +12,17 @@
         <target value="Android 6.0" />
         <api value="androidversion:23:null:null:true" />
       </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="52006754b2e1b4b1" />
+          </Key>
+        </key>
+        <name value="samsung SM-A530F" />
+        <target value="Android 8.0" />
+        <api value="androidversion:26:null:null:true" />
+      </PhysicalDevice>
     </physicalDevices>
   </component>
 </application>
