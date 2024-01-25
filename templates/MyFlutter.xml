@@ -1,0 +1,68 @@
+<templateSet group="MyFlutter">
+  <template name="st" value="setState(() {$END$});" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
+  <template name="routeName" value="static String get routeName =&gt; '$END$';&#10;static String get routeLocation =&gt; '/$routeName$';" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="routeName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
+  <template name="fview" value="import 'package:flutter/material.dart';&#10;class $name$View extends StatelessWidget {&#10;  const $name$View({super.key});&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Scaffold(&#10;      body: Center(&#10;        child: Text('$name$View'),&#10;      ),&#10;    );&#10;  }&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
+  <template name="fpageAuto" value="import 'package:flutter/material.dart';&#10;&#10;class $name$ extends StatelessWidget {&#10;  const $name$({super.key});&#10;&#10;  /// $name$ [routeName]&#10;  static const routeName = '$name$';&#10;&#10;  ///Router for $name$&#10;  static Route route() {&#10;    return MaterialRoute&lt;void&gt;(builder: (_) =&gt; const $name$());&#10;  }&#10;&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Scaffold(&#10;      appBar: AppBar(&#10;        title: const Text('$name$'),&#10;      ),&#10;    );&#10;  }&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
+  <template name="fpage" value="import 'package:flutter/material.dart';&#10;&#10;class $name$Page extends StatelessWidget {&#10;  const $name$Page({super.key});&#10;&#10;  /// $name$Page [routeName]&#10;  static const routeName = '$name$Page';&#10;&#10;  ///Router for $name$Page&#10;  static Route route() {&#10;    return MaterialPageRoute&lt;void&gt;(builder: (_) =&gt; const $name$Page());&#10;  }&#10;&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Scaffold(&#10;      appBar: AppBar(&#10;        title: const Text('$name$Page'),&#10;      ),&#10;    );&#10;  }&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
+  <template name="imptime" value="import 'package:time/time.dart';" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
+  <template name="fcom" value="//&lt;editor-fold desc=&quot;$SELECTION$&quot;&gt;&#10;//&lt;/editor-fold&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="-arrow" value="($S1$) =&gt; $END$" description="()=&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="S1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="-brackets" value="($S1$){$END$}" description="(){}" toReformat="false" toShortenFQNames="true">
+    <variable name="S1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="-ifReturn" value="if ($condition$) return$END$;" description="Dart if return statement" toReformat="false" toShortenFQNames="true">
+    <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+      <option name="DART_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="-typedMethod" value="&lt;$s$&gt;()$END$" description="&lt;typed&gt;[]" toReformat="false" toShortenFQNames="true">
+    <variable name="s" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="region" value="//&lt;editor-fold desc=&quot;Data Methods&quot;&gt;&#10;$END$&#10;//&lt;/editor-fold&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
