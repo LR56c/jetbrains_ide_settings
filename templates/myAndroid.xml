@@ -1,7 +1,12 @@
 <templateSet group="myAndroid">
-  <template name="ac" value="app:layout_constraintBottom_toBottomOf=&quot;parent&quot;&#10;        app:layout_constraintEnd_toEndOf=&quot;parent&quot;&#10;        app:layout_constraintStart_toStartOf=&quot;parent&quot;&#10;        app:layout_constraintTop_toTopOf=&quot;parent&quot; " description="" toReformat="false" toShortenFQNames="true">
+  <template name="ac" value="app:layout_constraintBottom_toBottomOf=&quot;parent&quot;&#10;        app:layout_constraintEnd_toEndOf=&quot;parent&quot;&#10;        app:layout_constraintStart_toStartOf=&quot;parent&quot;&#10;        app:layout_constraintTop_toTopOf=&quot;parent&quot; " description="xml center" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="XML_ATTRIBUTE" value="true" />
+    </context>
+  </template>
+  <template name="ab" value="private lateinit var binding: ActivitySettingsBinding&#10;binding = ActivitySettingsBinding.inflate(layoutInflater)&#10;setContentView(binding.root)" description="binding" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
     </context>
   </template>
 </templateSet>
