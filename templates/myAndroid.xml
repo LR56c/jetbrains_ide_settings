@@ -4,9 +4,15 @@
       <option name="XML_ATTRIBUTE" value="true" />
     </context>
   </template>
-  <template name="ab" value="private lateinit var binding: ActivitySettingsBinding&#10;binding = ActivitySettingsBinding.inflate(layoutInflater)&#10;setContentView(binding.root)" description="binding" toReformat="false" toShortenFQNames="true">
+  <template name="ab" value="private lateinit var binding: ActivitySettingsBinding&#10;binding = ActivitySettingsBinding.inflate(layoutInflater)&#10;setContentView(binding.root)" description="view binding" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="ah" value="#FFFFFF" description="fast hex" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+      <option name="XML_ATTRIBUTE" value="true" />
     </context>
   </template>
 </templateSet>
