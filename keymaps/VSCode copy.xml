@@ -39,6 +39,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt o" />
   </action>
   <action id="BuildSolutionAction" />
+  <action id="CIDR.Lang.Cpp.GenerateDefinitions" />
   <action id="CIDR.Lang.ObjC.IntroduceProperty" />
   <action id="ChangeSplitOrientation">
     <keyboard-shortcut first-keystroke="f3" second-keystroke="up" />
@@ -379,6 +380,9 @@
   <action id="UsageGrouping.FlattenModules" />
   <action id="Vcs.EditSource" />
   <action id="Vcs.MoveChangedLinesToChangelist" />
+  <action id="ViewMenu">
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
+  </action>
   <action id="WelcomeScreen.Plugins" />
   <action id="XDebugger.CopyValue">
     <keyboard-shortcut first-keystroke="ctrl insert" />
@@ -393,6 +397,7 @@
   <action id="android.deploy.CodeSwap">
     <keyboard-shortcut first-keystroke="ctrl alt f10" />
   </action>
+  <action id="android.device.volume.down.button" />
   <action id="codes.spidev.pubassist.action.PubAssist">
     <keyboard-shortcut first-keystroke="alt p" />
   </action>
