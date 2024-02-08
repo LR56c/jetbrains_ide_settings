@@ -3,7 +3,7 @@
     <property name="created">2022-01-25T21:39:48</property>
     <property name="ide">AndroidStudio</property>
     <property name="ideVersion">2020.3.1.26</property>
-    <property name="modified">2024-02-08T12:12:23</property>
+    <property name="modified">2024-02-08T12:27:25</property>
     <property name="originalScheme">monokai_rider copy</property>
   </metaInfo>
   <colors>
@@ -934,6 +934,11 @@
     <option name="KOTLIN_TYPE_PARAMETER">
       <value>
         <option name="FOREGROUND" value="78dce8" />
+      </value>
+    </option>
+    <option name="KOTLIN_WRAPPED_INTO_REF">
+      <value>
+        <option name="FOREGROUND" value="9cdcfe" />
       </value>
     </option>
     <option name="LAMBDA_PARAMETER_ATTRIBUTES">
