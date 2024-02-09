@@ -3,7 +3,7 @@
     <property name="created">2022-01-25T21:39:48</property>
     <property name="ide">AndroidStudio</property>
     <property name="ideVersion">2020.3.1.26</property>
-    <property name="modified">2024-02-08T12:27:25</property>
+    <property name="modified">2024-02-09T08:23:50</property>
     <property name="originalScheme">monokai_rider copy</property>
   </metaInfo>
   <colors>
@@ -913,12 +913,6 @@
     <option name="KOTLIN_NAMED_ARGUMENT">
       <value>
         <option name="FOREGROUND" value="888d4b" />
-      </value>
-    </option>
-    <option name="KOTLIN_OBJECT">
-      <value>
-        <option name="FOREGROUND" value="a9b7c6" />
-        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="KOTLIN_PACKAGE_FUNCTION_CALL">
