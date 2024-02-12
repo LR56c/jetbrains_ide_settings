@@ -3,7 +3,7 @@
     <property name="created">2022-01-25T21:39:48</property>
     <property name="ide">AndroidStudio</property>
     <property name="ideVersion">2020.3.1.26</property>
-    <property name="modified">2024-02-09T08:23:50</property>
+    <property name="modified">2024-02-12T11:15:06</property>
     <property name="originalScheme">monokai_rider copy</property>
   </metaInfo>
   <colors>
@@ -872,6 +872,7 @@
     <option name="KOTLIN_ANDROID_EXTENSIONS_PROPERTY_CALL">
       <value>
         <option name="FOREGROUND" value="dda0dd" />
+        <option name="BACKGROUND" value="254d17" />
       </value>
     </option>
     <option name="KOTLIN_ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
@@ -905,6 +906,11 @@
         <option name="FOREGROUND" value="ffad85" />
       </value>
     </option>
+    <option name="KOTLIN_EXTENSION_PROPERTY">
+      <value>
+        <option name="FOREGROUND" value="a9b7c6" />
+      </value>
+    </option>
     <option name="KOTLIN_LABEL">
       <value>
         <option name="FOREGROUND" value="4d82e1" />
@@ -918,6 +924,31 @@
     <option name="KOTLIN_PACKAGE_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="fc9867" />
+      </value>
+    </option>
+    <option name="KOTLIN_PACKAGE_PROPERTY">
+      <value>
+        <option name="FOREGROUND" value="dda0dd" />
+      </value>
+    </option>
+    <option name="KOTLIN_SMART_CAST_RECEIVER">
+      <value>
+        <option name="BACKGROUND" value="22393c" />
+      </value>
+    </option>
+    <option name="KOTLIN_SMART_CAST_VALUE">
+      <value>
+        <option name="BACKGROUND" value="4d322f" />
+      </value>
+    </option>
+    <option name="KOTLIN_SMART_CONSTANT">
+      <value>
+        <option name="BACKGROUND" value="3c3b22" />
+      </value>
+    </option>
+    <option name="KOTLIN_SYNTHETIC_EXTENSION_PROPERTY">
+      <value>
+        <option name="FOREGROUND" value="a9b7c6" />
       </value>
     </option>
     <option name="KOTLIN_TYPE_ALIAS">
