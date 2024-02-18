@@ -25,4 +25,12 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="asf" value="private val _$p$ = MutableStateFlow&lt;$type$&gt;($init$)&#10;val $p$ : StateFlow&lt;$type$&gt; = _$p$" description="state flow" toReformat="false" toShortenFQNames="true">
+    <variable name="p" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="init" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
