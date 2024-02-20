@@ -1,10 +1,10 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:com.example.sandbox MainAc" />
+    <option name="mostRecentlyUsed" value="package:com.example.sandbox " />
     <option name="nonFavorites">
       <list>
-        <option value="package:com.example.sandbox MainAc" />
         <option value="package:com.example.sandbox " />
+        <option value="package:com.example.sandbox MainAc" />
         <option value="package:com.example.sandbox MainActivity" />
         <option value="package:com.example.compose_2021_phillipp keyframes" />
         <option value="package:com.example.compose_2021_phillipp LaunchedEffect" />
