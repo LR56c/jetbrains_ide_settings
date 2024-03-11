@@ -1,0 +1,17 @@
+<application>
+  <component name="PresentationAssistant">
+    <option name="alternativeKeymap">
+      <KeymapDescription>
+        <option name="displayText" value="linux" />
+        <option name="name" value="Default for KDE" />
+      </KeymapDescription>
+    </option>
+    <option name="hideDelay" value="3000" />
+    <option name="mainKeymap">
+      <KeymapDescription>
+        <option name="displayText" value="w10" />
+        <option name="name" value="$default" />
+      </KeymapDescription>
+    </option>
+  </component>
+</application>
