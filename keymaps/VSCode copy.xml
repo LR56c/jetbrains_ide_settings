@@ -234,6 +234,7 @@
   </action>
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="shift ctrl #10000c7" />
+    <keyboard-shortcut first-keystroke="shift ctrl braceright" />
   </action>
   <action id="OpenInRightSplit">
     <mouse-shortcut keystroke="alt button1 doubleClick" />
@@ -248,6 +249,7 @@
   </action>
   <action id="PrevSplitter">
     <keyboard-shortcut first-keystroke="ctrl #10000c7" />
+    <keyboard-shortcut first-keystroke="ctrl braceright" />
   </action>
   <action id="PreviousOccurence">
     <keyboard-shortcut first-keystroke="alt page_down" />
