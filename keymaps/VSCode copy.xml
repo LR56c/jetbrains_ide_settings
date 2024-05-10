@@ -24,6 +24,9 @@
   <action id="ActivateRunToolWindow">
     <keyboard-shortcut first-keystroke="alt 3" />
   </action>
+  <action id="ActivateRunningDevicesToolWindow">
+    <keyboard-shortcut first-keystroke="alt quote" />
+  </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
